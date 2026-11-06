@@ -1,0 +1,1204 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RE:PLAY ｜ 次の挑戦は、もう始まっている</title>
+<meta name="description" content="スポーツに本気だった人のための部室。RE:PLAY は、競技で身についたものを外の世界の言葉に翻訳し、次のフィールドまで一緒に歩く場所です。">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0C161C">
+<meta property="og:type" content="website">
+<meta property="og:title" content="RE:PLAY ｜ 次の挑戦は、もう始まっている">
+<meta property="og:description" content="スポーツに本気だった人のための部室。熱を、次のフィールドへ。">
+<meta name="twitter:card" content="summary_large_image">
+<!-- text-lint:off  文言は渡部受領の原本(2026-10-08)のまま＝渡部指示「テキストは一切変更しない・増やさない・減らさない」(2026-10-20)。読点・連用形は原本由来。例外2件＝運営表記(10/17承認)とCTA見出し(10/20 渡部指定「さあ、次のステージへ行こう。」) -->
+<!-- 2026-11-02 v10.5 ＝ メンバーの顔写真を鈴村さん生成の「引き」2枚（西岡｜宣材写真_引き／岡畑｜宣材写真_引き）に差し替え。人物中央なので object-position 50% 30%、スマホの左マスクを22%に。 -->
+<!-- 2026-11-02 v10.3 ＝ スマホFVの赤：大三角をやめ、濃い三角（左上）はそのまま＋頂点が肩下に来る薄い小さい山を重ねる。 -->
+<!-- 2026-11-02 v10.2 ＝ スマホFVを画面いっぱいに戻しモック12準拠（赤の透け・見出し34px/左12%/上16%）。掲載メディアの見出しとロゴを白に。吹き出しを1行（12px・アイコン40px）。Member見出しを1行に。Memberのスマホ＝PC構図（左文字・右に大きな写真・左端を溶かす）。 -->
+<!-- 2026-11-02 v10.1 ＝ スマホFV：赤い面をモック実測（大三角94%→0・#B6395A透過＋左の濃い帯）、見出しを下げて大きく（左11%/上15%・34px）、王冠を金色・実績右端をCTAと揃える。吹き出しを明朝に。Member見出し「OBがアドバイザーとして伴走」・スマホ顔写真を縮小。News削除。特典「面談に参加した方限定「27卒部活生のES集」をお渡しします」・チップ3つ削除。 -->
+<!-- 2026-11-02 v10.0 ＝ FVのPRESENTバー削除／悩みをLINE風吹き出し（丸アイコン左右交互）に／what we do 2×2／メンバーをスマホでも横並び／西岡写真を切り直し／CTAは特典チップ「面談参加特典 「27卒部活生のES集」プレゼント✨」のみ（予約欄へ）・ボタン2つ削除／予約欄の見出しとタグ削除／スマホFVの高さ＝ヘッダー＋120vw・写真縦110%で上唇21%。 -->
+<!-- 2026-11-02 v9.9 ＝ iOS Safari対策：object-position/top の var・calc・clamp をやめ、写真ごとに数値を直書き（nth-of-type）。 -->
+<!-- 2026-11-02 v9.8 ＝ スマホ：人物が大きすぎたので写真を高さ72%に縮め（頭〜腰）、上唇を30%に揃える。上端はマスクで背景に溶かし、下端は暗いグラデで隠す。 -->
+<!-- 2026-11-02 v9.7 ＝ スマホFVをモック実測で修正：赤＝明#C03155の三角(右端49%→84%で0)＋暗#91102Fの斜め帯、縦書き見出しは左8%/上10%・28px・字間.3em、実績は下中央・CTA右下。写真の拡大を130%→110%（人物が大きすぎた）、上唇20%に揃え。 -->
+<!-- 2026-11-02 v9.6 ＝ スマホFVを鈴村さんモックに：左に深紅2色の斜め面、見出しは縦書き（サブは非表示）、実績は下中央・CTAは右下。PCは変更なし。 -->
+<!-- 2026-11-02 v9.5 ＝ 揃える基準を顎→上唇に（--cy＝上唇の高さ。縦130%で可動域を広げた）。 -->
+<!-- 2026-11-02 v9.4 ＝ 7枚の顎の高さを揃える（各写真に --cy、縦120%＋object-position計算。PC=27%・スマホ=24%）。 -->
+<!-- 2026-11-02 v9.3 ＝ スマホ：写真はヘッダー下から表示し顔が隠れないように。 スマホFV：人物を中央に（写真ごとに人物中心 --px を指定）、見出しは顔の横（左上19%）、実績＋CTAは右下。 -->
+<!-- 2026-11-02 v9.2 ＝ 鈴村さん指示：FVの赤い斜め面を外し、写真を中央配置、切替を2秒に。見出し＋サブは中央やや左（左寄せ・縦中央）、実績＋CTAは右下。 -->
+<!-- 2026-11-02 v9.1 ＝ 鈴村さん指示：what we do を4枚（OB直接／自己分析〜面接までフル／部活と両立／内定はスタートライン）に差し替え（「学歴の壁」は外した）／声を3人のカルーセル（5秒自動・ドット・矢印・スワイプ）に／Flow（4ステップ）削除／CTAの「まだ何も決まっていなくて〜」削除。 -->
+<!-- 2026-11-02 v9.0 ＝ 鈴村さん指示：FVを7競技の横顔1秒切替に／FVのロゴ・「28卒のあなたへ」・旧サブを削除し「部活に注いできた「本気」を、企業に伝わる言葉に変える。」の1行に／チップナビ削除／「こんな悩み抱えていませんか…？」（4つ＋イラスト＋答え）を新設／About（定義・写真パネル）削除／what we do を「私たちが選ばれている理由」に／Difference 削除。 -->
+<!-- 2026-11-02 v8.3 ＝ スマホのFVをPCと同じ構図に（写真を全面・右寄せ、赤い面は左、ロゴ/見出し/サブ/実績/CTAを左下に重ねる。低い画面ではサブヘッドを隠す）。 -->
+<!-- 2026-11-02 v8.2 ＝ FVの写真を鈴村さん生成の「サッカー横顔」静止画に差し替え（動画は停止・data-mp4を外した）。斜め面の幅を顔にかからない位置へ調整、PCの暗いグラデを撤去。 -->
+<!-- 2026-10-31 v8.1 ＝ FVをKCCS採用サイト参考の構図に：写真をモノクロ化し右へ、左から深紅2色＋黒の斜め面、明朝見出しを拡大、CTAは白枠線、FV直下に白いPRESENTバー（ES集）。 -->
+<!-- 2026-10-31 v8.0 ＝ 売れるLPの7要素（松岡秀樹）を反映：FVに「誰向け」と「得たい未来＋差別化」のサブヘッド／問題→共感の節（脳内語3つ＋OBの共感）／一般的な就活サービスとの対比表／4ステップに持ち帰るもの／予約欄の直前に予約後の流れ／スマホ固定CTA。渡部原本の文言は不変（足しただけ）。 -->
+<!-- 2026-10-23 v7.6 ＝ 声に馬場さん（体育会サッカー部主将・流通科学大学）を追加。 -->
+<!-- 2026-10-23 v7.5 ＝ 面談特典「部活経験者の内定者ES集」を予約欄の上（カード）とCTA（1行）に追加。特典ビジュアルは鈴村さん生成の本モック（特典_内定者ES集_本モック.jpg）。 -->
+<!-- 2026-10-23 v7.4 ＝ 西岡の写真左上の継ぎ目を修正／切替1.8秒／声の部活ラベル削除／TikTokを @replay_syukatsu に。 -->
+<!-- 2026-10-23 v7.3b ＝ 先行公開のため山本さんのカードをコメントアウト（写真受領後に復帰）。 -->
+<!-- 2026-10-23 v7.3 ＝ メンバー欄を鈴村さんモック「05 CINEMATIC」型へ（1人1段・右に大きなポートレート（左端を溶かす）・左に明朝の名前/ローマ字/赤ルール/経歴/現役時代写真）。ROSTER型は _旧版/RE_PLAY_LP_v7.2.html。 -->
+<!-- 2026-10-23 v7.2 ＝ 想いの段の切り替え写真を鈴村さん生成の5枚（サッカー・野球・バレー・陸上・剣道）に差し替え（バスケ含め6枚・動画コマは廃止）。 -->
+<!-- 2026-10-23 v7.1 ＝ メンバー欄を鈴村さんモック（ROSTER型：明朝の名前・スタジアム合成ポートレート・アイコン付き経歴行）に差し替え。合成写真は添付モックからの切り出し（元画像受領で差し替え）。現役時代インセットは廃止。声：南の「一度サッカーから離れる」削除・松岡さんの一言を追加。 -->
+<!-- 2026-10-23 v7.0 ＝ 松岡さんの現役時代写真を投入。メンバー欄をプレイヤーカード型（名前を写真に重ね・現役時代は右下インセット・経歴は時期｜内容の表）に作り替え。想いの段の写真をバスケ→陸上→バレーのクロスフェードに（img.slを足せば増える）。 -->
+<!-- 2026-10-23 v6.9 ＝ メンバー2名（西岡・岡畑）と声3名（南・松岡・山本）の学校名・競技実績を本人回収データで投入。声に松岡さん・山本さんのカードを追加（写真は回収中＝枠のみ）。ロゴ画像（04 PASS THE HEAT をLP色 #F9FAFA/#DA4A5E に塗り替え）をヘッダー・FV・想い・フッターに配置。面談は1時間なのでCTAを一度「1時間、話してみる（無料）」にしたあと、鈴村さん指示でCTA2か所を「無料で相談する」へ。FV下の注記（※母体である〜自社調べ）を削除。予約slugを ng-replay へ。松岡さん=剣道・山本さん=サッカーを反映。 -->
+<!-- 2026-10-22 v6.8 ＝ 「30分で、何をするのか。」を「就活を進める4つのステップ」（棚卸し→強み/弱みへの変換→就活軸の策定→企業の選定と方針）に書き直し。 -->
+<!-- 2026-10-22 v6.7 ＝ メンバーのカード：顔写真は左に1枚、現役時代の写真は名前の上の余白に横長で（1枠に2枚を細長く並べるのをやめた）。 -->
+<!-- 2026-10-21 v6.6 ＝ 写真の帯（横に流れる写真の並び）を外した（渡部「意味不明なスライドいらない」）。 -->
+<!-- 2026-10-21 v6.5 ＝ FV動画に3組目（バレーの円陣→グループディスカッション）を足して17.6秒に。 -->
+<!-- 2026-10-21 v6.4 ＝ FV動画を別パターンに：同じ学生の競技の瞬間（バスケ・陸上）→就活の瞬間（面接前・オフィス前）を2組つなぐ12秒。速い動き・ボールの飛び・汗は映さない設計（make_montage_v64.sh）。 -->
+<!-- 2026-10-21 v6.3 ＝ 予約フォームのslugを渡部指定に差し替え、フォームの見た目をLPの色に合わせた（影の中へ上書きstyle）。 -->
+<!-- 2026-10-21 v6.2 ＝ 鈴村さんFB対応：RE:PLAYの表記を1回に／メンバー写真を横並び／面談予約の導線（ヘッダー・FV・申込み欄・予約フォーム埋め込み）。 -->
+<!-- 2026-10-21 v6.1 ＝ 写真パネルの右側を想いのメッセージ（新たな〜・RE:PLAY・宣言）に置き換え。ビフォーアフターの例文・タブ・見出し・パネル下の重複メッセージを外した。 -->
+<!-- 2026-10-21 v6.0 ＝ 想いの段（新たな〜・ロゴ・宣言）をビフォーアフターの節の締めへ移した。 -->
+<!-- 2026-10-21 v5.9 ＝ ビフォーアフターを写真＋暗いパネル1枚に作り直し、悩み2つ（当たり前だと思っている／学歴が不安）をタブで切り替える形に（例文は部活・サークルどちらにも読める言葉）。 -->
+<!-- 2026-10-21 v5.8 ＝ 流れ図と例文を写真付きのビフォーアフター「あなたの経験が、企業に響く強みに変わる。」へ。Memberの見出しを「スポーツ/ビジネスどちらの現場でも活躍するOBがアドバイザー」へ。 -->
+<!-- 2026-10-21 v5.7 ＝ 想いの段の上半分（十何年の2行・PLAY/PAUSE/RE:PLAY）と「こんなモヤモヤ」の節を外した。想いの段は「新たな〜」・ロゴ・宣言だけで締める。 -->
+<!-- 2026-10-21 v5.6 ＝ 定義を「スポーツ経験者特化の就活支援サービスです。」へ、what we doを強み4つ（フル支援・学歴の壁・OB・両立）へ、並びを お客様の声→30分→News に。 -->
+<!-- 2026-10-21 v5.5 ＝ 「400字」の節を外し想いの2行を最後の段へ。動きの待ちを0.6秒以内に、768px以上で横並び、余白を詰めた（v5.4は1000px幅で間延び・空白が目立ち「崩れすぎ」と差し戻し）。 -->
+<!-- 2026-10-21 v5.4 ＝ 「挑戦し続けるとは」を外し、サービス紹介と想いを図と動きで見せる節「RE:PLAYとは」に。問い（十何年→400字）→定義と翻訳の流れ図→やること4つ→最初の30分→PLAY・PAUSE・RE:PLAY と宣言。文言は8月のv1.0サービスLPと今の想いの3行から。 -->
+<!-- 2026-10-21 v5.3 ＝ 「挑戦し続けるとは」を写真の縦並びから、画面が止まり3場面と宣言が映画のように切り替わる作りへ。
+     2026-10-20 v5.2 ＝ 掲載メディア9社(中途LPと同じ)とFVの実績の冠3つ(支援実績・満足度・内定先)を追加。
+     2026-10-20 v5.1 ＝ v5.0 の写真と背景動画を、新卒で決まった人の競技の実績(SF・82人)に合わせて差し替え。AI生成(Dプロ)の人物は実在の利用者ではない。
+     2026-10-20 v5.0 ＝ 原本を土台に DAZN(ja-JP home)の文法で再構成。地は中立の濃いグレー、実写が主役、見出しは太いゴシック、明朝は FV・宣言・CTA の3か所だけ。光・粒子・縁取り文字は使わない。 -->
+<style>
+@font-face{font-family:'ZenOldMincho';src:url(assets/font_01_2b16c92d.woff2) format('woff2');font-weight:500;font-style:normal;}
+@font-face{font-family:'Anton';src:url(assets/font_02_6e2f3132.woff2) format('woff2');font-weight:400;font-style:normal;}
+html{background:#0C161C; color-scheme:light;}
+:root{
+  --ground:#0C161C; --ground2:#080E12; --surface:#242D33; --line:#3D4549;
+  --ink:#F9FAFA; --ink2:#9EA2A4; --ink3:#6D7377;
+  --crimson:#DA4A5E; --crimson-l:#A8172B;
+  --sans:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","NotoSansJP","Yu Gothic",sans-serif;
+  --mincho:'ZenOldMincho',"Hiragino Mincho ProN","Yu Mincho",serif;
+  --display:'Anton','Arial Black','Helvetica Neue',sans-serif;
+  --jp:var(--sans);
+  --gut:16px; --hh:56px; --pad:16px;
+  /* レビュー用コメント欄（送付前に strip-review.mjs で外す） */
+  --ink4:#8A8A96; --ln-blue:#F0C2C9; --pale-blue:#FBECEE; --blue-d:#A8172B; --blue:#DA4A5E; --d-acc:#FFD6DC;
+}
+@media (min-width:1024px){ :root{ --gut:48px; --hh:64px; --pad:48px; } }
+*,*::before,*::after{box-sizing:border-box;}
+html,body{margin:0; padding:0;}
+body{background:var(--ground); color:var(--ink); font-family:var(--sans); font-size:16px; line-height:1.7; -webkit-font-smoothing:antialiased; overflow-x:hidden;}
+body.locked{overflow:hidden;}
+img{display:block; max-width:100%;}
+a{color:inherit; text-decoration:none;}
+h1,h2,h3,h4,p,ul{margin:0; padding:0;}
+.wrap{width:100%; max-width:1280px; margin:0 auto; padding:0 var(--gut);}
+.slide{position:relative;}
+
+/* ── ローダー（原本の時計を静かに） ── */
+.load{position:fixed; inset:0; z-index:100; background:var(--ground); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px;
+  transition:opacity .5s, visibility .5s;}
+.load .clock{font-family:var(--display); font-size:64px; line-height:1; color:var(--ink); font-variant-numeric:tabular-nums;}
+.load .ft{font-size:13px; font-weight:700; color:var(--ink2); letter-spacing:.08em;}
+.load.done{opacity:0; visibility:hidden;}
+
+/* ── ヘッダー ── */
+.hdr{position:fixed; top:0; left:0; right:0; z-index:80; height:var(--hh); display:flex; align-items:center; justify-content:space-between;
+  padding:0 var(--gut); background:linear-gradient(to bottom, rgba(8,14,18,.9), rgba(8,14,18,0)); transition:background .3s;}
+.hdr.solid{background:var(--ground2);}
+.logo{font-family:var(--display); font-size:22px; line-height:1; letter-spacing:.01em;}
+.logo .re{color:var(--crimson);}
+.logo img{display:block; height:24px; width:auto;} /* v6.9 ロゴ画像（横組み） */
+.hdr .logo .lg-mark{display:none; height:22px;}
+@media (max-width:599px){ .hdr .logo .lg-row{display:none;} .hdr .logo .lg-mark{display:block;} } /* スマホはマークのみ（ボタンが折り返さないように） */
+.fv .mark img{display:block; width:clamp(220px,46vw,480px); height:auto;}
+.ba-msg .mark img{display:block; width:clamp(180px,30vw,340px); height:auto;}
+.brand .logo img{height:30px;}
+.hr{display:flex; align-items:center; gap:4px;}
+.tbtn{display:inline-flex; align-items:center; gap:6px; height:36px; padding:0 14px; border-radius:8px; background:rgba(255,255,255,.2);
+  font-size:14px; font-weight:700; color:var(--ink); transition:background .2s;}
+.tbtn:hover{background:rgba(255,255,255,.3);}
+.tbtn svg{width:14px; height:14px; fill:currentColor;}
+.tbtn.bk{background:var(--ink); color:var(--ground2);}
+.burger{width:44px; height:44px; display:inline-flex; align-items:center; justify-content:center; background:none; border:0; color:var(--ink); padding:0; cursor:pointer;}
+.burger svg{width:24px; height:24px; stroke:currentColor; stroke-width:2; fill:none; stroke-linecap:round;}
+@media (min-width:1024px){ .burger{display:none;} }
+
+/* ── FV ── */
+.fv{background:var(--ground);}
+.fv .media{position:relative; height:66svh; min-height:420px; overflow:hidden;}
+.fv .media img,.fv .media video{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 40%;}
+.fv .media video{opacity:0; transition:opacity .8s;}
+.fv .media.on video{opacity:1;}
+.fv .media::after{content:""; position:absolute; inset:0; pointer-events:none;
+  background:linear-gradient(to bottom, rgba(12,22,28,0) 45%, rgba(12,22,28,.7) 75%, var(--ground) 100%);}
+.fv .copy{position:relative; z-index:1; margin-top:-120px; padding:0 var(--gut) 40px; display:grid; justify-items:center; gap:16px; text-align:center;}
+.fv .mark{font-family:var(--display); font-size:clamp(72px,22vw,168px); line-height:.9; letter-spacing:.01em;}
+.fv .mark .re{color:var(--crimson);}
+.fv h1{font-family:var(--mincho); font-weight:500; font-size:clamp(30px,8vw,52px); line-height:1.4; letter-spacing:.04em;}
+.fv .copy > *{opacity:0; transform:translateY(16px); transition:opacity .8s, transform .8s cubic-bezier(.2,.7,.2,1);}
+body.ready .fv .copy > *{opacity:1; transform:none;}
+body.ready .fv .copy > :nth-child(2){transition-delay:.15s;}
+@media (min-width:1024px){
+  .fv .media{height:88svh;}
+  .fv .media::before{content:""; position:absolute; inset:0; z-index:1; pointer-events:none;
+    background:linear-gradient(90deg, rgba(12,22,28,.82) 0%, rgba(12,22,28,.35) 40%, rgba(12,22,28,0) 62%);}
+  .fv{position:relative;}
+  .fv .copy{position:absolute; left:0; right:0; bottom:13%; margin:0 auto; padding:0 var(--gut); justify-items:start; text-align:left; max-width:1280px;}
+}
+
+/* ── メニュー項目（スマホ=FV下のチップ列／PC=ヘッダー内） ── */
+.chips{display:flex; gap:8px; overflow-x:auto; padding:0 var(--gut) 8px; scrollbar-width:none;}
+.chips::-webkit-scrollbar{display:none;}
+.chips a{flex:0 0 auto; display:inline-flex; align-items:center; height:40px; padding:0 16px; border:1px solid var(--line); border-radius:8px;
+  font-size:14px; font-weight:700; color:var(--ink); background:var(--ground);}
+@media (min-width:1024px){
+  .chips{position:fixed; top:0; left:calc(var(--gut) + 130px); z-index:81; height:var(--hh); align-items:center; gap:28px; padding:0; overflow:visible;}
+  .chips a{height:auto; padding:0; border:0; background:none; font-size:14px; transition:color .2s;}
+  .chips a:hover{color:var(--crimson);}
+}
+
+/* ── 節の見出し ── */
+.sec{padding:56px 0 8px;}
+@media (min-width:1024px){ .sec{padding:88px 0 8px;} }
+.ttl{display:flex; align-items:center; flex-wrap:wrap; gap:4px 12px; margin-bottom:16px;}
+.ttl .en{font-size:20px; font-weight:700; color:var(--crimson); line-height:1.3;}
+.ttl .bar{width:1px; height:18px; background:var(--line);}
+.ttl h2,.ttl h3{font-size:20px; font-weight:700; line-height:1.3;}
+@media (min-width:1024px){ .ttl .en,.ttl h2,.ttl h3{font-size:24px;} .ttl .bar{height:22px;} }
+.lead{font-size:14px; color:var(--ink2); margin:-6px 0 20px;}
+
+/* ── 実績の冠（FV・v5.2） ── */
+.crowns{list-style:none; display:flex; justify-content:center; gap:10px; width:100%; margin-top:6px;}
+.crown{display:flex; align-items:center; gap:3px; color:var(--ink2);}
+.crown .lr{width:17px; height:52px; flex:0 0 auto; color:#D4AF37; opacity:1;}
+.crown .rr{transform:scaleX(-1);}
+.crown .ci{display:grid; justify-items:center; line-height:1.1; white-space:nowrap;}
+.crown .cl{font-size:12px; font-weight:700; color:var(--ink2); margin-bottom:2px;}
+.crown .cv{font-size:22px; font-weight:700; color:var(--ink); font-variant-numeric:tabular-nums; letter-spacing:-.01em; white-space:nowrap;}
+.crown .cv small{font-size:11px; font-weight:700; margin-left:1px; color:var(--ink);}
+.cnote{font-size:12px; line-height:1.6; color:var(--ink3); max-width:28em; margin-top:-2px;}
+@media (min-width:1024px){
+  .crowns{justify-content:flex-start; gap:28px;}
+  .crown{gap:5px;}
+  .crown .lr{width:24px; height:72px;}
+  .crown .cl{font-size:13px;} .crown .cv{font-size:32px;} .crown .cv small{font-size:14px;}
+  .cnote{max-width:36em;}
+}
+/* ── 掲載メディア（中途LPと同じ9社・流れるロゴ） ── */
+.media{padding:28px 0 8px;}
+.media .mt{display:flex; align-items:center; justify-content:center; gap:8px; font-size:14px; font-weight:700; color:var(--ink); margin-bottom:14px;}
+.media .mt .lr{width:12px; height:28px; color:var(--ink3);}
+.media .mt .rr{transform:scaleX(-1);}
+.media .mq{position:relative; overflow:hidden;}
+.media .mq::before,.media .mq::after{content:""; position:absolute; top:0; bottom:0; width:40px; z-index:1; pointer-events:none;}
+.media .mq::before{left:0; background:linear-gradient(90deg, var(--ground), rgba(12,22,28,0));}
+.media .mq::after{right:0; background:linear-gradient(270deg, var(--ground), rgba(12,22,28,0));}
+.media .mrow{display:flex; align-items:center; gap:26px; width:max-content; padding:6px 13px; animation:flow 44s linear infinite;}
+.media .mrow img{width:104px; height:26px; object-fit:contain; opacity:.95; filter:brightness(0) invert(1); transition:opacity .3s;} /* ロゴを白に */
+.media .mrow img:hover{opacity:.95;}
+.media .mnote{margin-top:10px; padding:0 var(--gut); text-align:center; font-size:12px; color:var(--ink3);}
+@media (min-width:1024px){ .media{padding:48px 0 8px;} .media .mrow{gap:64px; padding:6px 32px;} .media .mrow img{width:168px; height:38px;} }
+/* ── RE:PLAYとは（v5.4：サービス紹介と想いを図と動きで見せる） ── */
+.ab{padding-top:48px;}
+.ab.room{padding-top:24px;}
+.ab.room .blk{padding-bottom:16px;}
+@media (min-width:1024px){ .ab{padding-top:72px;} }
+.ab .ttl{margin-bottom:24px;}
+.blk{padding:48px 0;}
+@media (min-width:1024px){ .blk{padding:64px 0;} }
+.ab > .wrap + .blk{padding-top:8px;}
+.blk h4{font-size:18px; font-weight:700; line-height:1.5; color:var(--ink); text-wrap:balance; word-break:auto-phrase;}
+.ab ol,.ab ul{padding:0; margin-left:0;}
+.ic{width:18px; height:18px; flex:none; vertical-align:-3px;}
+.ic-lg{width:22px; height:22px; vertical-align:-4px;}
+.blk p{font-size:16px; line-height:1.8; color:var(--ink2);}
+.re{color:var(--crimson);}
+/* B 定義：競技の経験 → 翻訳 → 次で使える言葉 */
+.blk .dq{word-break:auto-phrase; font-size:clamp(28px,4.6vw,52px); font-weight:700; line-height:1.35; letter-spacing:-.01em; color:var(--ink); text-wrap:balance;}
+.blk .dsub{margin-top:20px; font-size:17px; max-width:36em; text-wrap:pretty; word-break:auto-phrase;}
+.flow{display:grid; justify-items:stretch; margin-top:28px;}
+.node{border:1px solid var(--line); border-radius:12px; padding:20px 22px; background:var(--ground);
+  opacity:0; transform:translateY(14px); transition:opacity .5s, transform .6s cubic-bezier(.16,1,.3,1); transition-delay:var(--d,0ms);}
+.node .nl{display:block; font-family:var(--display); font-size:15px; letter-spacing:.06em; color:var(--ink3); margin-bottom:6px;}
+.node .nt{display:block; font-size:20px; font-weight:700; line-height:1.45; color:var(--ink); word-break:auto-phrase; text-wrap:balance;}
+.node.mid{background:var(--ink); border-color:var(--ink);}
+.node.mid .nl{color:var(--ink3);} .node.mid .nt{color:var(--ground2);}
+.node .by{display:block; margin-top:6px; font-family:var(--display); font-size:18px; letter-spacing:.02em; color:var(--ground2);}
+.conn{position:relative; width:2px; height:36px; margin:0 auto; background:var(--line); overflow:hidden;}
+.conn::after{content:""; position:absolute; inset:0; background:var(--ink); transform:scaleY(0); transform-origin:top; transition:transform .35s ease-out; transition-delay:var(--d,0ms);}
+.flow.in .node{opacity:1; transform:none;}
+.flow.in .conn::after{transform:none;}
+.tr{margin-top:28px; border:1px solid var(--line); border-radius:12px; padding:22px; display:grid; gap:10px;}
+.tr .tl{font-size:14px; font-weight:700; color:var(--ink3);}
+.tr .tb{display:flex; flex-direction:column; align-items:flex-start; gap:8px;}
+.tr .from{font-size:18px; font-weight:700; color:var(--ink2); text-decoration:line-through; text-decoration-color:transparent; transition:text-decoration-color .4s .15s, color .4s .15s;}
+.tr .tb .ic{color:var(--ink3); transform:rotate(90deg);}
+.tr .to{font-size:20px; font-weight:700; line-height:1.55; color:var(--ink); word-break:auto-phrase;}
+.tr.in .from{text-decoration-color:var(--ink3); color:var(--ink3);}
+@media (min-width:768px){
+  .flow{grid-template-columns:1fr 40px 1.1fr 40px 1fr; align-items:stretch;}
+  .conn{width:100%; height:2px; align-self:center;}
+  .conn::after{transform:scaleX(0); transform-origin:left;}
+  .node{padding:22px 22px; display:flex; flex-direction:column; justify-content:center;}
+  .tr{grid-template-columns:auto 1fr; align-items:center; gap:28px; padding:26px 32px;}
+  .tr .tb{flex-direction:row; align-items:center; gap:16px; flex-wrap:wrap;}
+  .tr .tb .ic{transform:none;}
+  .tr .to{font-size:24px;}
+}
+/* B' ビフォーアフター：写真＋暗いパネル1枚（v5.9） */
+.ba{margin-top:48px;}
+.blk .ba-h{font-size:clamp(24px,3.4vw,36px); font-weight:700; line-height:1.45; color:var(--ink); text-wrap:balance; word-break:auto-phrase; margin-bottom:20px;}
+.ba-panel{display:grid; border:1px solid var(--line); border-radius:16px; overflow:hidden; background:var(--ground2);}
+.ba-ph{position:relative; aspect-ratio:16/10; overflow:hidden;}
+.ba-ph img{width:100%; height:100%; object-fit:cover; object-position:56% 35%;}
+.ba-ph .sl{position:absolute; inset:0; opacity:0; transition:opacity .5s ease; will-change:opacity;}
+.ba-ph .sl.on{opacity:1;}
+@media (prefers-reduced-motion: reduce){ .ba-ph .sl{transition:none;} }
+.ba-ph::after{content:""; position:absolute; inset:0; background:linear-gradient(to bottom, rgba(8,14,18,0) 55%, var(--ground2) 100%);}
+.ba-body{padding:8px 24px 32px; display:grid; gap:24px; align-content:center;}
+.ba-body .lab{display:block; font-size:13px; font-weight:700; letter-spacing:.04em; margin-bottom:8px;}
+.blk .ba-before p{font-size:16px; line-height:1.8; color:var(--ink3); text-decoration:line-through; text-decoration-color:var(--ink3);}
+.ba-before .lab{color:var(--ink3);}
+.ba-via{display:flex; align-items:center; gap:12px;}
+.ba-via .ln{flex:1; height:1px; background:var(--line);}
+.ba-via .pill{display:inline-flex; align-items:center; gap:8px; height:36px; padding:0 14px; border:1px solid var(--line); border-radius:8px; font-size:13px; font-weight:700; color:var(--ink2); white-space:nowrap; flex:none;}
+.ba-via .ln{min-width:12px;}
+.ba-body{min-width:0;}
+.ba-after .lab{color:var(--crimson);}
+.blk .ba-after p{font-size:clamp(24px,3vw,36px); font-weight:700; line-height:1.55; color:var(--ink); word-break:auto-phrase; text-wrap:balance; margin-bottom:18px;}
+.hl{background:linear-gradient(var(--crimson),var(--crimson)) no-repeat 0 100% / 0% 3px; padding-bottom:3px; transition:background-size .5s ease-out; transition-delay:var(--d,0ms);}
+.ba.in .ba-set.on .hl{background-size:100% 3px;}
+.tagz{list-style:none; display:flex; flex-wrap:wrap; gap:8px; padding:0; margin:0;}
+.tagz li{display:inline-flex; align-items:center; height:34px; padding:0 12px; border-radius:8px; border:1px solid var(--ink2); font-size:14px; font-weight:700; color:var(--ink);
+  opacity:0; transform:translateY(6px); transition:opacity .3s, transform .3s; transition-delay:var(--d,0ms);}
+.ba.in .ba-set.on .tagz li{opacity:1; transform:none;}
+.ba-tabs{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px;}
+.ba-tabs button{height:40px; padding:0 16px; border:1px solid var(--line); border-radius:8px; background:var(--ground); color:var(--ink2); font:inherit; font-size:14px; font-weight:700; cursor:pointer; transition:background .2s, color .2s, border-color .2s;}
+.ba-tabs button.on{background:var(--ink); color:var(--ground2); border-color:var(--ink);}
+.ba-tabs button:focus-visible{outline:2px solid var(--ink); outline-offset:2px;}
+@media (min-width:900px){
+  .ba-panel{grid-template-columns:42% 1fr; min-height:30em;}
+  .ba-ph{aspect-ratio:auto;}
+  .ba-ph::after{background:linear-gradient(to right, rgba(8,14,18,0) 50%, var(--ground2) 100%);}
+  .ba-body{padding:48px 56px 52px 32px; gap:28px;}
+  .hl{white-space:nowrap;}
+}
+/* パネルの想いのメッセージ（v6.1） */
+.ba-msg{gap:20px;}
+.ba-msg .v1{font-size:clamp(20px,2.4vw,28px); font-weight:700; line-height:1.6; color:var(--ink); text-wrap:balance; word-break:auto-phrase;}
+.ba-msg .mark{font-family:var(--display); font-size:clamp(56px,8vw,112px); line-height:.9; letter-spacing:.01em;}
+.ba-msg .v2{font-family:var(--mincho); font-weight:500; font-size:clamp(24px,3vw,42px); line-height:1.55; letter-spacing:.04em; color:var(--ink); text-wrap:balance; word-break:keep-all; overflow-wrap:anywhere;}
+/* C やること4つ */
+.cards{list-style:none; display:grid; gap:12px; margin-top:8px;}
+.card{border:1px solid var(--line); border-radius:12px; padding:24px 22px 26px; background:var(--ground); display:grid; align-content:start; gap:10px; transition-delay:var(--d,0ms);}
+.card .top{display:flex; align-items:center; justify-content:space-between; margin-bottom:6px;}
+.card .no{font-family:var(--display); font-size:28px; line-height:1; color:var(--ink3);}
+.card .ib{width:48px; height:48px; border-radius:50%; border:1px solid var(--line); display:inline-flex; align-items:center; justify-content:center; color:var(--ink);}
+.card .ib .ic{stroke-dasharray:90; stroke-dashoffset:90; transition:stroke-dashoffset .8s ease-out; transition-delay:var(--d,0ms);}
+.card.in .ib .ic{stroke-dashoffset:0;}
+.cards{grid-template-columns:1fr 1fr;} @media (max-width:599px){ .card{padding:18px 14px 20px;} .card h4{font-size:15px;} .card p{font-size:13px;} .card .no{font-size:22px;} .card .ib{width:40px; height:40px;} }
+@media (min-width:1100px){ .cards{grid-template-columns:1fr 1fr; gap:16px;} .card{padding:28px 24px 32px;} }
+/* D 最初の30分：進み具合の線が4段をたどる */
+.ab .steps{list-style:none; position:relative; display:grid; gap:28px; margin-top:8px; padding-left:52px; --f:0;}
+.steps::before,.steps::after{content:""; position:absolute; left:17px; top:18px; bottom:18px; width:2px; background:var(--line);}
+.steps::after{background:var(--ink); transform:scaleY(var(--f)); transform-origin:top;}
+.steps li{position:relative;}
+.steps .dot{position:absolute; left:-52px; top:0; width:36px; height:36px; border-radius:50%; border:1px solid var(--line); background:var(--ground);
+  display:inline-flex; align-items:center; justify-content:center; font-family:var(--display); font-size:17px; color:var(--ink2); z-index:1; transition:background .4s, color .4s, border-color .4s;}
+.steps li.on .dot{background:var(--ink); color:var(--ground2); border-color:var(--ink);}
+.steps h4{padding-top:4px; margin-bottom:6px;}
+.tags{list-style:none; display:flex; flex-wrap:wrap; gap:8px; margin-top:28px;}
+.tags li{display:inline-flex; align-items:center; gap:6px; height:36px; padding:0 14px; border:1px solid var(--line); border-radius:8px; font-size:14px; font-weight:700; color:var(--ink);}
+@media (min-width:768px){
+  .ab .steps{grid-template-columns:repeat(4,1fr); gap:20px; padding-left:0; padding-top:60px;}
+  .steps::before,.steps::after{left:18px; right:calc(25% - 10px); top:17px; bottom:auto; width:auto; height:2px;}
+  .steps::after{transform:scaleX(var(--f)); transform-origin:left;}
+  .steps .dot{left:0; top:-60px;}
+}
+/* E 想い：PLAY → PAUSE → RE:PLAY */
+.vow{background:var(--ground2); padding:64px 0 72px; margin-top:24px; text-align:center;}
+@media (min-width:1024px){ .vow{padding:88px 0 96px;} }
+.ba-close{text-align:center; padding:64px 0 8px;}
+@media (min-width:1024px){ .ba-close{padding-top:88px;} }
+.ba-close .v1{margin:0 auto; font-size:clamp(22px,5.4vw,34px); font-weight:700; line-height:1.6; color:var(--ink); max-width:24em; text-wrap:balance; word-break:auto-phrase;}
+.ba-close .mark{margin-top:28px; font-family:var(--display); font-size:clamp(44px,12vw,96px); line-height:.9;}
+.ba-close .v2{margin:18px auto 0; font-family:var(--mincho); font-weight:500; font-size:clamp(24px,6.2vw,48px); line-height:1.5; letter-spacing:.04em; color:var(--ink); max-width:20em; text-wrap:balance; word-break:keep-all; overflow-wrap:anywhere;}
+/* ── 面談特典（v7.5） ── */
+.gift{display:grid; gap:18px; margin:0 0 24px; padding:24px 20px; border:1px solid var(--line); border-radius:14px; background:var(--ground2);}
+.gift .en{display:block; font-size:12px; font-weight:700; letter-spacing:.3em; color:var(--crimson);}
+.gift h3{margin-top:8px; font-size:clamp(18px,4.6vw,24px); font-weight:800; line-height:1.5; color:var(--ink);}
+.gift p{margin-top:10px; font-size:14px; line-height:1.8; color:var(--ink2);}
+.gift ul{list-style:none; margin:14px 0 0; padding:0; display:flex; flex-wrap:wrap; gap:8px;}
+.gift li{font-size:12px; font-weight:700; padding:6px 11px; border:1px solid var(--line); border-radius:999px; color:var(--ink);}
+.gift-cover{position:relative; width:min(72%,230px); margin:0 auto; border-radius:12px; overflow:hidden;}
+.gift-cover img{width:100%; height:auto; display:block;
+  -webkit-mask-image:radial-gradient(ellipse 78% 80% at 50% 50%, #000 62%, transparent 100%); mask-image:radial-gradient(ellipse 78% 80% at 50% 50%, #000 62%, transparent 100%);} /* 本の周りの体育館を溶かしてカードに馴染ませる */
+.cta .gift-line{display:inline-block; margin-top:2px; padding:8px 14px; border:1px solid rgba(249,250,250,.4); border-radius:999px; font-size:13px; font-weight:700; color:var(--ink);}
+@media (min-width:768px){ .gift{grid-template-columns:250px 1fr; align-items:center; padding:24px 32px; gap:24px;} .gift-cover{width:100%; margin:0;} }
+/* ── v8.0：売れるLPの7要素（FVサブヘッド／問題→共感／対比表／出口／予約後の流れ／固定CTA） ── */
+.fvkick{font-size:13px; font-weight:700; letter-spacing:.08em; color:var(--crimson);}
+.fvsub{font-size:clamp(15px,3.8vw,19px); line-height:1.75; color:var(--ink); font-weight:700; text-wrap:balance; max-width:30em;}
+@media (min-width:1024px){ .fvsub br.sp{display:none;} }
+.pain{padding:40px 0 8px;}
+.pains{list-style:none; margin:0; padding:0; display:grid; gap:10px;}
+.pains li{font-family:var(--mincho); font-size:clamp(16px,4.2vw,22px); line-height:1.6; color:var(--ink); padding:14px 16px; border-left:2px solid var(--crimson); background:var(--ground2); border-radius:0 10px 10px 0;}
+.pain-ans{margin-top:22px; font-size:15px; line-height:1.9; color:var(--ink2);}
+.pain-ans b{display:block; font-size:clamp(18px,4.6vw,24px); color:var(--ink); margin-bottom:6px;}
+@media (min-width:1024px){ .pain{padding:56px 0 8px;} .pains{grid-template-columns:repeat(3,1fr); gap:14px;} .pains li{padding:20px 18px;} .pain-ans{font-size:16px;} }
+.diff{padding-top:24px;}
+.cmp{border:1px solid var(--line); border-radius:12px; overflow:hidden; font-size:14px;}
+.cmp-h,.cmp-r{display:grid; grid-template-columns:5.5em 1fr 1fr; gap:0;}
+.cmp-h{background:var(--ground2); font-size:12px; font-weight:700; color:var(--ink2);}
+.cmp-h span,.cmp-r span,.cmp-r b{padding:12px 10px; border-top:1px solid var(--line); line-height:1.6;}
+.cmp-h span{border-top:0;}
+.cmp-r b{font-weight:700; color:var(--ink); background:var(--ground2);}
+.cmp-r span{color:var(--ink2);}
+.cmp .me{background:rgba(218,74,94,.08); color:var(--ink); font-weight:700;}
+.cmp-h .me{color:var(--crimson);}
+.cmp-note{margin-top:10px; font-size:12px; color:var(--ink3);}
+@media (min-width:1024px){ .cmp{font-size:15px;} .cmp-h,.cmp-r{grid-template-columns:9em 1fr 1fr;} .cmp-h span,.cmp-r span,.cmp-r b{padding:16px 18px;} }
+.steps .out{display:inline-flex; align-items:center; gap:8px; margin-top:10px; padding:6px 10px 6px 6px; border:1px solid var(--line); border-radius:8px; font-size:13px; font-weight:700; color:var(--ink);}
+.steps .out i{font-style:normal; font-size:11px; font-weight:700; letter-spacing:.04em; color:var(--crimson); padding:2px 6px; border:1px solid var(--crimson); border-radius:4px;}
+.after{list-style:none; margin:0 0 16px; padding:0; display:grid; gap:8px;}
+.after li{display:flex; align-items:center; gap:12px; font-size:14px; color:var(--ink2); line-height:1.5;}
+.after li b{flex:0 0 26px; width:26px; height:26px; border-radius:50%; display:grid; place-items:center; background:var(--ink); color:var(--ground2); font-size:12px; font-weight:800;}
+@media (min-width:768px){ .after{grid-template-columns:repeat(3,1fr); gap:14px;} .after li{font-size:15px;} }
+.stick{position:fixed; left:12px; right:12px; bottom:12px; z-index:70; display:flex; align-items:center; justify-content:center; gap:10px; height:56px; border-radius:14px;
+  background:var(--ink); color:var(--ground2); font-size:16px; font-weight:800; box-shadow:0 12px 30px rgba(0,0,0,.45); transform:translateY(120%); opacity:0; transition:transform .35s cubic-bezier(.2,.7,.2,1), opacity .35s;}
+.stick small{font-size:12px; font-weight:700; color:var(--ink3);}
+.stick.on{transform:none; opacity:1;}
+@media (min-width:1024px){ .stick{display:none;} }
+@media (prefers-reduced-motion: reduce){ .stick{transition:none;} }
+/* ── v8.1 FV：モノクロ写真×深紅の斜め面（KCCS採用サイト参考） ── */
+.fv{position:relative; overflow:hidden; background:#121C23;}
+.fv .media img,.fv .media video{filter:grayscale(1) contrast(1.08) brightness(.98); object-position:62% 35%;}
+.fv .media::after{background:linear-gradient(to top, #121C23 0%, rgba(18,28,35,.55) 30%, rgba(18,28,35,0) 60%);}
+.fv-geo{position:absolute; inset:0; z-index:1; pointer-events:none; overflow:hidden;}
+.fv-geo i{position:absolute; display:block; top:-12%; height:124%;}
+.fv-geo .g1{left:-18%; width:66%; background:#A8172B; clip-path:polygon(0 0, 100% 0, 46% 100%, 0 100%);}
+.fv-geo .g2{left:-18%; width:66%; background:#DA4A5E; clip-path:polygon(0 0, 60% 0, 24% 100%, 0 100%); opacity:.92;}
+.fv-geo .g3{left:22%; width:34%; background:#0B1218; clip-path:polygon(60% 0, 100% 0, 40% 100%, 0 100%); opacity:.55; mix-blend-mode:multiply;}
+.fv .copy{position:relative; z-index:2;}
+.fv .mark img{width:clamp(150px,30vw,230px);} .fv .mark .lg-w{display:none;}
+.fv h1{font-size:clamp(36px,9.2vw,96px); line-height:1.2; letter-spacing:.06em; text-shadow:0 2px 24px rgba(0,0,0,.35);}
+.fvkick{color:#F9FAFA; opacity:.92;}
+.fv .fvbtn{background:transparent; color:#F9FAFA; border:1px solid rgba(249,250,250,.85); border-radius:0; height:54px; padding:0 22px 0 26px; font-size:15px; letter-spacing:.04em;}
+.fv .fvbtn:hover{background:rgba(249,250,250,.12);}
+.fv .fvbtn .chev{font-size:20px; line-height:1; margin-left:6px; transform:translateY(-1px);}
+.fv .crowns{opacity:.95;}
+@media (max-width:1023px){
+  .fv .media{height:58svh; min-height:380px;}
+  .fv-geo i{top:-8%; height:70%;}
+  .fv-geo .g1{left:-30%; width:80%;} .fv-geo .g2{left:-30%; width:80%;} .fv-geo .g3{display:none;}
+  .fv .copy{margin-top:-150px; padding-bottom:36px;}
+}
+@media (min-width:1024px){
+  .fv .media{height:min(92svh, 860px);}
+  .fv .media::before{display:none;}
+  .fv .media::after{background:none;}
+  .fv .copy{position:absolute; bottom:auto; top:50%; transform:translateY(-50%); left:0; right:0; padding:0 var(--gut); max-width:1280px; margin:0 auto; width:100%; gap:12px; justify-items:start;}
+  .fv .copy > *{max-width:680px;}
+  .fv .mark{margin-bottom:0;} .fv .mark img{width:170px;} .fv .mark .lg-c{display:none;} .fv .mark .lg-w{display:block;}
+  .fv h1{font-size:clamp(40px,4.6vw,66px); line-height:1.22; white-space:nowrap;}
+  .fvsub{font-size:17px; max-width:30em;}
+  .fv .crowns{margin-top:2px;}
+  .fv .fvbtn{margin-top:2px;}
+}
+.fvbar{background:#F9FAFA; color:#15181B; border-bottom:1px solid #E3E6E8;}
+.fvbar .wrap{display:flex; align-items:center; gap:14px; min-height:52px; padding-top:8px; padding-bottom:8px;}
+.fvbar .lb{font-family:var(--display); font-style:italic; font-size:15px; letter-spacing:.06em; color:var(--crimson-l); flex:0 0 auto;}
+.fvbar .tx{flex:1 1 auto; font-size:14px; font-weight:700; line-height:1.5;}
+.fvbar a{flex:0 0 auto; display:inline-flex; align-items:center; gap:4px; height:28px; padding:0 12px; border-radius:999px; background:var(--crimson-l); color:#F9FAFA; font-family:var(--display); font-style:italic; font-size:12px; letter-spacing:.06em; text-decoration:none;}
+@media (max-width:599px){ .fvbar .wrap{flex-wrap:wrap; gap:6px 12px;} .fvbar .tx{flex-basis:100%; order:3;} }
+/* ── v8.3 スマホもPCと同じ構図（写真右・赤い面左・文字は左下に重ねる） ── */
+@media (max-width:1023px){
+  .fv{position:relative; height:100svh; min-height:640px; max-height:960px; overflow:hidden;}
+  .fv .media{position:absolute; inset:0; height:100%; min-height:0;}
+  .fv .media img,.fv .media video{object-position:51% 28%;} /* 顔が右端に当たらない位置 */
+  .fv .media::after{background:linear-gradient(to top, rgba(18,28,35,.82) 0%, rgba(18,28,35,.35) 42%, rgba(18,28,35,0) 68%);}
+  .fv-geo i{top:-10%; height:120%;}
+  .fv-geo .g1{display:block; left:-34%; width:84%; clip-path:polygon(0 0, 100% 0, 44% 100%, 0 100%);}
+  .fv-geo .g2{display:block; left:-34%; width:84%; clip-path:polygon(0 0, 62% 0, 24% 100%, 0 100%);}
+  .fv-geo .g3{display:none;}
+  .fv .copy{position:absolute; left:0; right:0; bottom:7%; margin:0; padding:0 var(--gut); display:grid; justify-items:start; text-align:left; gap:10px;}
+  .fv .mark img{width:116px;} .fv .mark .lg-c{display:none;} .fv .mark .lg-w{display:block;}
+  .fvkick{font-size:12px; letter-spacing:.06em;}
+  .fv h1{font-size:clamp(28px,8.6vw,40px); line-height:1.25; letter-spacing:.05em; white-space:nowrap; text-shadow:0 2px 18px rgba(0,0,0,.5);}
+  .fvsub{font-size:14px; line-height:1.7; max-width:21em; text-shadow:0 1px 10px rgba(0,0,0,.6);}
+  .fvsub br.sp{display:none;}
+  .fv .crowns{justify-content:flex-start; gap:6px; margin-top:0;}
+  .fv .crown .lr{width:12px; height:36px;} .fv .crown .cl{font-size:10px;} .fv .crown .cv{font-size:17px;} .fv .crown .cv small{font-size:10px;}
+  .fv .fvbtn{height:46px; padding:0 18px 0 20px; font-size:14px; margin-top:0;}
+}
+@media (max-width:1023px) and (max-height:700px){
+  .fv .mark img{width:96px;} .fv .copy{gap:8px; bottom:5%;} .fvsub{display:none;}
+}
+/* ── v9.0 ── */
+.fv .media .kv{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0; transition:opacity .45s ease; will-change:opacity;}
+.fv .media .kv.on{opacity:1;}
+@media (prefers-reduced-motion: reduce){ .fv .media .kv{transition:none;} }
+.fv .copy{gap:14px;}
+.fvsub{font-weight:700;}
+.nayami{padding:48px 0 16px;}
+.ny-h{font-size:clamp(24px,6vw,40px); font-weight:800; line-height:1.35; text-align:center; letter-spacing:.02em;}
+.ny-list{list-style:none; margin:24px 0 0; padding:0; display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+.ny-list li{background:#F9FAFA; color:#15181B; border-radius:14px; padding:14px 12px 16px; display:grid; justify-items:center; gap:10px; text-align:center;}
+.ny-list .wi{width:84px; height:84px; border-radius:50%; overflow:hidden; background:#fff; display:grid; place-items:center;}
+.ny-list .wi img{width:100%; height:100%; object-fit:cover; object-position:center 10%;}
+.ny-list p{font-size:14px; font-weight:700; line-height:1.6; color:#15181B; text-wrap:balance; word-break:auto-phrase;}
+.ny-ans{margin:24px auto 0; text-align:center; font-size:clamp(16px,4.2vw,22px); line-height:1.7; color:var(--ink);}
+.ny-ans b{color:var(--crimson);}
+.ny-ans .arw{display:block; font-size:28px; color:var(--crimson); line-height:1; margin-bottom:8px; transform:rotate(90deg);}
+@media (min-width:768px){ .nayami{padding:64px 0 24px;} .ny-list{grid-template-columns:repeat(4,1fr); gap:16px;} .ny-list li{padding:22px 16px 24px; gap:14px;} .ny-list .wi{width:104px; height:104px;} .ny-list p{font-size:15px;} .ny-ans .arw{display:inline-block; transform:none; margin:0 10px 0 0; vertical-align:-2px;} }
+.ab > .blk:first-child{padding-top:16px;}
+/* ── v9.1：声のカルーセル ── */
+.vslider{position:relative;}
+.vtrack{display:flex; overflow-x:auto; scroll-snap-type:x mandatory; scrollbar-width:none; -webkit-overflow-scrolling:touch; gap:0;}
+.vtrack::-webkit-scrollbar{display:none;}
+.vtrack > .vcard{flex:0 0 100%; width:100%; scroll-snap-align:start; margin:0 !important;}
+.vnav{display:flex; align-items:center; justify-content:center; gap:14px; margin-top:18px;}
+.vbtn{width:40px; height:40px; border-radius:50%; border:1px solid var(--line); background:var(--ground2); color:var(--ink); font-size:22px; line-height:1; cursor:pointer; display:grid; place-items:center; padding:0 0 2px;}
+.vbtn:hover{border-color:var(--ink);}
+.vdots{display:flex; gap:8px;}
+.vdots button{width:10px; height:10px; border-radius:50%; border:0; background:var(--line); padding:0; cursor:pointer; transition:background .2s, transform .2s;}
+.vdots button.on{background:var(--crimson); transform:scale(1.2);}
+@media (min-width:1024px){ .vnav{justify-content:flex-start; margin-top:22px;} }
+/* ── v9.2：赤い面なし・写真中央・見出し左寄り／実績とCTAは右下 ── */
+.fv-geo{display:none !important;}
+.fv .media img,.fv .media video,.fv .media .kv{object-position:50% 30%;}
+.fv .media::after{background:linear-gradient(to top, rgba(18,28,35,.9) 0%, rgba(18,28,35,.45) 40%, rgba(18,28,35,.15) 70%, rgba(18,28,35,.35) 100%);}
+.fv .copy{display:block; text-align:left;}
+.fv .copy > *{max-width:none;}
+.fv-l,.fv-r{display:grid; gap:12px;}
+.fv-r{justify-items:start;}
+.fv .mark .lg-c,.fv .mark .lg-w{display:none;}
+@media (min-width:1024px){
+  .fv .copy{position:absolute; left:0; right:0; top:0; bottom:0; transform:none; height:100%; padding:0 var(--gut); max-width:1280px; margin:0 auto;}
+  .fv-l{position:absolute; left:var(--gut); top:50%; transform:translateY(-58%); max-width:620px; text-shadow:0 2px 24px rgba(0,0,0,.55);}
+  .fv .copy .fv-l h1{font-size:clamp(44px,5vw,72px); white-space:nowrap;}
+  .fv-r{position:absolute; right:var(--gut); bottom:9%; justify-items:end; text-align:right; gap:14px;}
+  .fv-r .crowns{justify-content:flex-end;}
+  .fv-r .fvbtn{background:var(--ink); color:var(--ground2); border-color:var(--ink);}
+}
+@media (max-width:1023px){
+  .fv .copy{position:absolute; left:0; right:0; top:auto; bottom:6%; transform:none; margin:0; padding:0 var(--gut); display:grid; gap:16px;}
+  .fv-l{transform:none;}
+  .fv-r{justify-items:end; text-align:right;}
+  .fv-r .crowns{justify-content:flex-end;}
+  .fv .media img,.fv .media video,.fv .media .kv{object-position:50% 20%;}
+}
+/* ── v9.3：スマホは人物を中央に・見出しは顔の横・実績とCTAは右下 ── */
+.fv .media .kv{object-position:var(--px,50%) 30%;}
+@media (max-width:1023px){
+  .fv .media{top:var(--hh); height:calc(100% - var(--hh));} /* 顔がヘッダーに隠れないよう写真をヘッダー下から */
+  .fv .media img,.fv .media video,.fv .media .kv{object-position:calc((var(--px,50%) - 14.8%) / 0.74) 0%;} /* 人物中心が画面の57%に来る換算（表示幅≒画像幅の26%） */
+  .fv .media::after{background:linear-gradient(to top, rgba(18,28,35,.92) 0%, rgba(18,28,35,.5) 34%, rgba(18,28,35,0) 58%);}
+  .fv .copy{position:absolute; left:0; right:0; top:0; bottom:0; display:block; padding:0; margin:0;}
+  .fv-l{position:absolute; left:var(--gut); top:27%; max-width:60%; gap:8px; text-shadow:0 2px 16px rgba(0,0,0,.7);}
+  .fv .copy .fv-l h1{font-size:clamp(20px,5.5vw,24px); line-height:1.3; white-space:nowrap;}
+  .fv-l .fvsub{font-size:13px; line-height:1.6; max-width:14em;}
+  .fv-r{position:absolute; right:var(--gut); bottom:6%; justify-items:end; text-align:right; gap:12px;}
+  .fv-r .crowns{justify-content:flex-end; gap:6px;}
+  .fv-r .fvbtn{background:var(--ink); color:var(--ground2); border-color:var(--ink);}
+}
+@media (max-width:1023px) and (max-height:700px){ .fv-l{top:26%;} .fv-l .fvsub{display:none;} }
+/* ── v9.4：顎の高さを7枚で揃える（--cy＝画像内の顎の高さ%。写真を縦120%にして上下位置で合わせる） ── */
+.fv .media .kv{height:130%;} /* PC：上唇を画面高さの24.5%に（値は写真ごとに下で直書き） */
+.fv .media .kv:nth-of-type(1){object-position:60% 18.0%;}
+.fv .media .kv:nth-of-type(2){object-position:64% 9.3%;}
+.fv .media .kv:nth-of-type(3){object-position:62% 11.5%;}
+.fv .media .kv:nth-of-type(4){object-position:66% 0.7%;}
+.fv .media .kv:nth-of-type(5){object-position:62% 2.8%;}
+.fv .media .kv:nth-of-type(6){object-position:62% 31.0%;}
+.fv .media .kv:nth-of-type(7){object-position:66% 7.2%;}
+
+@media (max-width:1023px){
+  .fv .media .kv{height:110%; top:0; bottom:auto; -webkit-mask-image:none; mask-image:none;} /* スマホ：箱が 幅:高さ=1:1.2 なので縦110%で頭〜腰が入る。上唇21%で揃える */
+  .fv .media .kv:nth-of-type(1){object-position:59.9% 43.0%;}
+  .fv .media .kv:nth-of-type(2){object-position:66.9% 21.0%;}
+  .fv .media .kv:nth-of-type(3){object-position:63.4% 26.5%;}
+  .fv .media .kv:nth-of-type(4){object-position:70.4% 0.0%;}
+  .fv .media .kv:nth-of-type(5){object-position:63.4% 4.5%;}
+  .fv .media .kv:nth-of-type(6){object-position:63.4% 76.0%;}
+  .fv .media .kv:nth-of-type(7){object-position:70.4% 15.5%;}
+  .fv .media::after{background:linear-gradient(to top, rgba(18,28,35,.9) 0%, rgba(18,28,35,.45) 26%, rgba(18,28,35,0) 48%);}
+  .fv-l{top:29%;}
+}
+/* ── v9.6 スマホFV：左に深紅の斜め面＋縦書き見出し（鈴村さんモック） ── */
+@media (max-width:1023px){
+  .fv-geo{display:block !important; top:var(--hh); height:calc(100% - var(--hh));}
+  .fv-geo i{display:block; top:0; height:100%;}
+  .fv-geo .g1{left:0; width:100%; background:#C9476A; clip-path:polygon(0 0, 41% 38%, 0 100%); opacity:.55;} /* 薄い山：左上から始まり、頂点は見出し「戦」と「は」の間の高さ・字のすぐ右 */ /* モック実測：右端94%→下端で0・(176,59,85)・写真が透ける */ /* 明るい赤：モック実測 (192,49,85)・右端49%→高さ84%で0 */
+  .fv-geo .g2{left:0; width:92%; background:#A32848; clip-path:polygon(0 0, 40% 0, 0 62%); opacity:.88;} /* 濃い三角（サイズそのまま） */ /* 左の濃い帯 */ /* 暗い赤の斜め帯：(145,16,48) */
+  .fv-geo .g3{display:none;}
+  .fv .media::after{background:linear-gradient(to top, rgba(18,28,35,.85) 0%, rgba(18,28,35,.3) 30%, rgba(18,28,35,0) 50%);}
+  .fv-l{left:12%; top:16%; max-width:none; text-shadow:none; display:block;}
+  .fv .copy .fv-l h1{writing-mode:vertical-rl; text-orientation:mixed; font-size:clamp(28px,8.6vw,34px); line-height:1.6; letter-spacing:.36em; white-space:nowrap; height:auto; color:#F9FAFA;}
+  .fv .copy .fv-l h1 br{display:block;}
+  .fv-l .fvsub{display:none;}
+  .fv-r{left:var(--gut); right:var(--gut); bottom:4%; gap:12px; justify-items:end;}
+  .fv-r .crowns{justify-content:flex-end; gap:12px; width:100%; padding-right:0;}
+  .fv-r .fvbtn{height:44px; padding:0 18px 0 22px; font-size:14px;}
+  .fv-r .crown .cl{font-size:11px;} .fv-r .crown .cv{font-size:19px;}
+}
+/* ── v10.0：悩み＝LINE風吹き出し／メンバーはスマホも横並び ── */
+.ny-list{grid-template-columns:1fr !important; gap:14px !important; margin-top:22px !important;}
+.ny-list li{display:flex !important; align-items:flex-end; gap:8px; background:transparent !important; padding:0 !important; border-radius:0 !important; text-align:left !important; justify-items:start !important;}
+.ny-list li.r{flex-direction:row-reverse;}
+.ny-list .wi{flex:0 0 40px; width:40px !important; height:40px !important; border-radius:50% !important; background:#fff !important; border:2px solid #F9FAFA; overflow:hidden;}
+.ny-list .wi img{object-position:center 8% !important;}
+.ny-list .bub{position:relative; max-width:none; background:#F9FAFA; color:#15181B; border-radius:16px; padding:9px 11px; font-family:var(--mincho); font-size:12px; font-weight:700; letter-spacing:.01em; line-height:1.5; text-align:left; white-space:nowrap;}
+.ny-list .bub::after{content:""; position:absolute; bottom:8px; width:0; height:0; border:7px solid transparent;}
+.ny-list li:not(.r) .bub{border-bottom-left-radius:4px;} .ny-list li:not(.r) .bub::after{left:-12px; border-right-color:#F9FAFA;}
+.ny-list li.r .bub{border-bottom-right-radius:4px; background:#DDE3E8;} .ny-list li.r .bub::after{right:-12px; border-left-color:#DDE3E8;}
+@media (min-width:768px){ .ny-list{max-width:640px; margin-left:auto !important; margin-right:auto !important;} .ny-list .wi{flex-basis:64px; width:64px !important; height:64px !important;} .ny-list .bub{font-size:16px; padding:12px 18px;} }
+}
+/* ── 横レール ── */
+.rail{display:flex; gap:12px; overflow-x:auto; scroll-snap-type:x mandatory; scroll-padding-inline:var(--gut); margin:0 calc(var(--gut) * -1); padding:0 var(--gut) 8px; scrollbar-width:none;}
+.rail::-webkit-scrollbar{display:none;}
+.rail > *{scroll-snap-align:start;}
+
+/* ── News ── */
+.ncard{flex:0 0 min(80vw,340px);}
+.ncard .th{position:relative; aspect-ratio:16/9; border-radius:8px; overflow:hidden; background:var(--surface);}
+.ncard .th img{width:100%; height:100%; object-fit:cover; transition:transform .5s;}
+.ncard:hover .th img{transform:scale(1.04);}
+.ncard .bd{position:absolute; top:8px; left:8px; display:flex; gap:4px;}
+.ncard .bd span{display:inline-flex; align-items:center; height:22px; padding:0 7px; border-radius:4px; font-size:12px; font-weight:700; line-height:1;}
+.ncard .date{background:var(--ink); color:var(--ground2);}
+.ncard .cat{background:var(--crimson-l); color:var(--ink);}
+.ncard h3{margin-top:10px; font-size:15px; font-weight:700; line-height:1.5;}
+@media (min-width:1024px){ .news .rail{display:grid; grid-template-columns:repeat(3,1fr); gap:16px; overflow:visible; margin:0; padding:0;} .ncard h3{font-size:16px;} }
+
+/* ── Member ── */
+/* ── メンバー：CINEMATIC型（v7.3・鈴村さんモック準拠） ── */
+.team .ttl2{display:flex; align-items:center; gap:14px; margin-bottom:14px;}
+.team .ttl2 .en{font-size:13px; font-weight:700; letter-spacing:.32em; color:var(--crimson);}
+.team .ttl2 .ln{display:block; width:40px; height:2px; background:var(--crimson);}
+.team .h-min{font-family:var(--mincho); font-weight:500; font-size:clamp(22px,5.8vw,52px); line-height:1.3; letter-spacing:.06em; color:var(--ink); white-space:nowrap;}
+.team .lead-min{font-family:var(--mincho); font-weight:500; font-size:clamp(14px,2vw,19px); letter-spacing:.08em; line-height:1.7; color:var(--ink2); margin:12px 0 8px;}
+.cine-list{display:grid; gap:0;}
+.cine{position:relative; display:grid; grid-template-columns:1fr; gap:0; padding:28px 0 36px; border-top:1px solid var(--line); overflow:hidden;}
+.cine:first-child{border-top:0;}
+.cine .ph{position:relative; margin:0 calc(var(--gut) * -1) 6px; aspect-ratio:4/3; overflow:hidden;}
+.cine .ph img{width:100%; height:100%; object-fit:cover; display:block;}
+.cine .ph::after{content:""; position:absolute; inset:0; pointer-events:none; background:linear-gradient(to bottom, rgba(12,22,28,0) 68%, var(--ground) 100%);}
+.cine .tag{display:inline-block; border-left:2px solid var(--crimson); padding:2px 0 2px 10px; color:var(--crimson); font-size:13px; font-weight:700; letter-spacing:.08em; line-height:1.2;}
+.cine h3{margin-top:12px; font-family:var(--mincho); font-weight:500; font-size:clamp(36px,9vw,64px); line-height:1.1; letter-spacing:.16em; color:var(--ink);}
+.cine .ro{display:block; margin-top:10px; font-size:12px; letter-spacing:.32em; color:var(--ink2);}
+.cine .rule{display:block; width:32px; height:2px; background:var(--crimson); margin:20px 0 18px;}
+.cine .career{list-style:none; margin:0; padding:0; display:grid; gap:8px;}
+.cine .career li{display:grid; grid-template-columns:5.5em 1fr; gap:14px; font-size:15px; line-height:1.6; color:var(--ink);}
+.cine .career li b{font-weight:400; color:var(--ink2);}
+.cine .career li span{border-left:1px solid var(--line); padding-left:14px;}
+.cine .note{margin-top:14px; font-size:15px; line-height:1.7; color:var(--ink2);}
+.cine .then{position:relative; margin:22px 0 0; aspect-ratio:16/6.4; overflow:hidden; background:transparent;}
+.cine .then img{width:100%; height:100%; object-fit:cover; object-position:center 30%; display:block;
+  -webkit-mask-image:linear-gradient(to right, #000 55%, transparent 100%); mask-image:linear-gradient(to right, #000 55%, transparent 100%);}
+.cine .then figcaption{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0);} /* 見本通りラベル非表示（読み上げのみ） */
+@media (min-width:1024px){
+  .cine{grid-template-columns:47% minmax(0,1fr); gap:24px; align-items:end; padding:36px 0 0;}
+  .cine .ph{order:2; margin:0; aspect-ratio:auto; align-self:end;}
+  .cine .ph img{height:auto;}
+  .cine .ph::after{background:linear-gradient(to right, var(--ground) 0, rgba(12,22,28,0) 30%), linear-gradient(to bottom, var(--ground) 0, rgba(12,22,28,0) 14%), linear-gradient(155deg, var(--ground) 0, rgba(12,22,28,0) 34%);}
+  .cine .tx{order:1; padding-bottom:8px;}
+  .cine .career li{font-size:16px;}
+  .cine .then{margin-top:24px; aspect-ratio:16/6;}
+}
+.vcard li{position:relative; padding-left:12px; font-size:14px; color:var(--ink2); line-height:1.6;}
+.vcard li::before{content:""; position:absolute; left:0; top:.7em; width:4px; height:4px; border-radius:50%; background:var(--ink3);}
+@media (min-width:1024px){
+
+}
+@media (min-width:1200px){
+}
+
+/* ── Voices（写真を大きく1人） ── */
+.vcard + .vcard{margin-top:40px;}
+.vcard .ph.wait{display:grid; place-items:center; border:1px dashed var(--line); color:var(--ink3); font-size:12px; letter-spacing:.14em;}
+.vcard{display:grid; gap:14px;}
+.vcard .ph{position:relative; aspect-ratio:16/10; border-radius:12px; overflow:hidden; background:var(--surface);}
+.vcard .ph img{width:100%; height:100%; object-fit:cover; object-position:center 35%;}
+.vcard .wh{position:absolute; top:10px; left:10px; display:inline-flex; align-items:center; height:24px; padding:0 8px; border-radius:4px;
+  background:var(--crimson-l); color:var(--ink); font-size:12px; font-weight:700;}
+.vcard h3{font-size:24px; font-weight:700; line-height:1.3;}
+.vcard ul{list-style:none; margin-top:8px; display:grid; gap:6px;}
+.vcard li{font-size:15px;}
+.vcard li.q{color:var(--ink); font-weight:700; font-size:17px; line-height:1.7; padding-left:0; margin-top:6px;}
+.vcard li.q::before{display:none;}
+@media (min-width:1024px){
+  .vcard{grid-template-columns:62% 1fr; gap:40px; align-items:center;}
+  .vcard h3{font-size:32px;} .vcard li.q{font-size:20px;}
+}
+
+/* ── 写真の帯（原本どおり文字なし） ── */
+.strip{margin-top:72px; overflow:hidden; padding:4px 0;}
+.strip .row{display:flex; gap:12px; width:max-content; animation:flow 48s linear infinite;}
+.strip img{height:120px; width:auto; border-radius:8px; object-fit:cover;}
+@keyframes flow{to{transform:translateX(-50%);}}
+@media (min-width:1024px){ .strip{margin-top:104px;} .strip img{height:180px;} }
+
+/* ── CTA ── */
+.cta{position:relative; margin-top:12px; min-height:84svh; display:flex; align-items:flex-end; overflow:hidden;}
+.cta .bg{position:absolute; inset:0; background-size:cover; background-position:center 40%;}
+.cta .bg::after{content:""; position:absolute; inset:0; background:linear-gradient(to bottom, var(--ground) 0%, rgba(12,22,28,.2) 30%, rgba(12,22,28,.75) 65%, var(--ground) 100%);}
+.cta .wrap{position:relative; padding-top:96px; padding-bottom:64px; display:grid; justify-items:center; gap:16px; text-align:center;}
+.cta .en{font-size:16px; font-weight:700; color:var(--crimson);}
+.cta h2{font-family:var(--mincho); font-weight:500; font-size:clamp(26px,7.4vw,64px); line-height:1.4; letter-spacing:.02em; text-wrap:balance;}
+@media (min-width:768px){ .cta h2 br.sp{display:none;} }
+.cta p{font-size:15px; color:var(--ink2); max-width:32em; line-height:1.9;}
+.btns{display:flex; flex-wrap:wrap; gap:12px;}
+.btn2{background:transparent !important; color:var(--ink) !important; border:1px solid var(--ink2);}
+.fv .fvbtn{margin-top:4px;}
+.booking{padding-bottom:88px;}
+.booking .tags{list-style:none; display:flex; flex-wrap:wrap; gap:8px; padding:0; margin:0 0 20px;}
+.booking .tags li{display:inline-flex; align-items:center; height:36px; padding:0 14px; border:1px solid var(--line); border-radius:8px; font-size:14px; font-weight:700; color:var(--ink);}
+.bk-box{border:1px solid var(--line); border-radius:16px; padding:24px 20px; background:var(--ground2); min-height:12em;}
+@media (min-width:768px){ .bk-box{padding:36px 40px;} }
+.btn{display:inline-flex; align-items:center; justify-content:center; gap:8px; height:52px; padding:0 28px; border-radius:8px; margin-top:8px;
+  background:var(--ink); color:var(--ground2); font-size:16px; font-weight:700; transition:transform .2s, background .2s;}
+.btn:hover{transform:translateY(-1px); background:#FFFFFF;}
+.btn svg{width:16px; height:16px; fill:currentColor;}
+@media (min-width:1024px){ .cta{min-height:88vh;} .cta .wrap{padding-bottom:96px;} .cta p{font-size:16px;} .btn{height:56px; padding:0 36px;} }
+
+/* ── フッター ── */
+footer{background:var(--ground2); padding:48px 0 32px; margin-top:0;}
+footer .grid{display:grid; gap:32px;}
+footer .brand .logo{font-size:26px;}
+footer .brand p{margin-top:12px; font-size:13px; color:var(--ink2); max-width:22em; line-height:1.8;}
+footer h4{font-size:12px; font-weight:700; color:var(--ink3); margin-bottom:10px; letter-spacing:.06em;}
+footer ul{list-style:none; display:grid; gap:8px;}
+footer ul a{font-size:14px; font-weight:700; color:var(--ink); transition:color .2s;}
+footer ul a:hover{color:var(--crimson);}
+footer .fnote{margin-top:40px; padding-top:16px; border-top:1px solid var(--surface); font-size:12px; color:var(--ink3); line-height:1.8;}
+@media (min-width:768px){ footer .grid{grid-template-columns:2fr 1fr 1fr 1fr;} }
+
+/* ── メニュー（スマホ） ── */
+.ov{position:fixed; inset:0; z-index:95; background:var(--ground); padding:0 var(--gut) 32px; opacity:0; transition:opacity .25s;}
+.ov[hidden]{display:none;}
+.ov.open{opacity:1;}
+.ov .bar{height:var(--hh); display:flex; align-items:center; justify-content:space-between;}
+.ov .t{font-size:14px; font-weight:700; color:var(--ink2);}
+.ov .ovclose{height:36px; padding:0 14px; border-radius:8px; border:0; background:rgba(255,255,255,.2); color:var(--ink); font:inherit; font-size:14px; font-weight:700; cursor:pointer;}
+.ov .list{display:grid; margin-top:8px;}
+.ov .list a{display:flex; align-items:center; justify-content:space-between; min-height:60px; border-bottom:1px solid var(--surface); font-size:20px; font-weight:700;}
+.ov .list a span{font-size:13px; font-weight:700; color:var(--ink3);}
+
+/* ── 出現 ── */
+.rv{opacity:0; transform:translateY(16px); transition:opacity .7s, transform .7s cubic-bezier(.2,.7,.2,1);}
+.rv.in{opacity:1; transform:none;}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important;}
+  .fv .copy > *,.rv{opacity:1 !important; transform:none !important;}
+  .node,.tagz li{opacity:1 !important; transform:none !important;}
+  .hl{background-size:100% 3px !important;}
+  .conn::after{transform:none !important;} .card .ib .ic{stroke-dashoffset:0 !important;}
+}
+@media (max-width:1023px){
+  .cine{grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:0; align-items:stretch; padding:28px 0 0;}
+  .cine .ph{order:2; position:relative; margin:0 calc(var(--gut) * -1) 0 -8%; width:auto; aspect-ratio:auto; align-self:stretch; min-height:360px;}
+  .cine .ph img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; -webkit-mask-image:linear-gradient(to right, transparent 0, #000 22%); mask-image:linear-gradient(to right, transparent 0, #000 22%);}
+  .cine .ph::after{background:linear-gradient(to bottom, var(--ground) 0, rgba(12,22,28,0) 16%);}
+  .cine .tx{order:1; padding:0 0 12px; position:relative; z-index:2;}
+  .cine .tag{font-size:11px; padding-left:8px;}
+  .cine h3{font-size:clamp(22px,6.4vw,30px); letter-spacing:.1em; margin-top:8px;}
+  .cine .ro{font-size:9px; letter-spacing:.2em; margin-top:6px;}
+  .cine .rule{margin:12px 0 10px; width:24px;}
+  .cine .career{gap:5px;} .cine .career li{grid-template-columns:4.2em 1fr; gap:8px; font-size:11.5px; line-height:1.5;} .cine .career li span{padding-left:8px;}
+  .cine .note{font-size:11.5px; margin-top:8px;}
+  .cine .then{margin:12px 0 0; aspect-ratio:16/7;}
+.cta .gift-line{display:inline-flex; align-items:center; gap:8px; margin-top:6px; height:52px; padding:0 18px 0 20px; border-radius:999px; background:var(--ink); color:var(--ground2); border:0; font-size:13px; font-weight:800; text-decoration:none; white-space:nowrap; box-shadow:0 10px 28px rgba(0,0,0,.4);}
+.cta .gift-line::after{content:"›"; font-size:20px; line-height:1;}
+@media (min-width:768px){ .cta .gift-line{height:60px; padding:0 32px; font-size:17px; gap:10px;} }
+</style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5KH7WRCP');</script>
+<!-- End Google Tag Manager -->
+<script>
+/* 着地時にLP識別子と流入情報を dataLayer 変数として積む（event無し＝新トリガー不要）。
+   lp 値 'newgrads_replay' は GTMトリガーの条件値。公開後に変えないこと。 */
+(function(){
+  var p=new URLSearchParams(location.search);
+  window.dataLayer=window.dataLayer||[];
+  window.dataLayer.push({
+    lp:'newgrads_replay',
+    utm_source:p.get('utm_source')||'', utm_medium:p.get('utm_medium')||'',
+    utm_campaign:p.get('utm_campaign')||'', utm_content:p.get('utm_content')||'',
+    ttclid:p.get('ttclid')||'', fbclid:p.get('fbclid')||''
+  });
+})();
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KH7WRCP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Lucide icons (ISC License) https://lucide.dev — REFLAME採用61種・取得 2026-09-26 / lucide-static v1.48.0
+     使い方: この<svg>ブロックを<body>直後に1つ置き、以後は <svg class="ic"><use href="#ic-NAME"/></svg> で呼ぶ。
+     CDN読み込みはしない（オフラインでファイルを開いた時にアイコンが消えるため）。 -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true"><defs>
+<symbol id="ic-activity" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2" /></symbol>
+<symbol id="ic-arrow-down-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 7 10 10" /><path d="M17 7v10H7" /></symbol>
+<symbol id="ic-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></symbol>
+<symbol id="ic-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10" /><path d="M7 17 17 7" /></symbol>
+<symbol id="ic-ban" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><path d="M4.929 4.929 19.07 19.071" /></symbol>
+<symbol id="ic-book-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v16" /><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" /></symbol>
+<symbol id="ic-bot" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8" /><rect width="16" height="12" x="4" y="8" rx="2" /><path d="M2 14h2" /><path d="M20 14h2" /><path d="M15 13v2" /><path d="M9 13v2" /></symbol>
+<symbol id="ic-briefcase" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" /><rect width="20" height="14" x="2" y="6" rx="2" /></symbol>
+<symbol id="ic-building-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 12h4" /><path d="M10 8h4" /><path d="M14 21v-3a2 2 0 0 0-4 0v3" /><path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2" /><path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16" /></symbol>
+<symbol id="ic-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v3" /><path d="M16 2v3" /><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18" /></symbol>
+<symbol id="ic-chart-column" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16" /><path d="M18 17V9" /><path d="M13 17V5" /><path d="M8 17v-3" /></symbol>
+<symbol id="ic-chart-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16" /><path d="m19 9-5 5-4-4-3 3" /></symbol>
+<symbol id="ic-chart-pie" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z" /><path d="M21.21 15.89A10 10 0 1 1 8 2.83" /></symbol>
+<symbol id="ic-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6" /></symbol>
+<symbol id="ic-chevron-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6" /></symbol>
+<symbol id="ic-circle-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><line x1="12" x2="12" y1="8" y2="12" /><line x1="12" x2="12.01" y1="16" y2="16" /></symbol>
+<symbol id="ic-circle-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><path d="m16 9-5.5 5.5L8 12" /></symbol>
+<symbol id="ic-circle-dot" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1" /><circle cx="12" cy="12" r="10" /></symbol>
+<symbol id="ic-circle-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><path d="m15 9-6 6" /><path d="m9 9 6 6" /></symbol>
+<symbol id="ic-clipboard-list" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1" /><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" /><path d="M12 11h4" /><path d="M12 16h4" /><path d="M8 11h.01" /><path d="M8 16h.01" /></symbol>
+<symbol id="ic-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" /></symbol>
+<symbol id="ic-coins" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.744 17.736a6 6 0 1 1-7.48-7.48" /><path d="M15 6h1v4" /><path d="m6.134 14.768.866-.5 2 3.464" /><circle cx="16" cy="8" r="6" /></symbol>
+<symbol id="ic-database" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3" /><path d="M3 5V19A9 3 0 0 0 21 19V5" /><path d="M3 12A9 3 0 0 0 21 12" /></symbol>
+<symbol id="ic-external-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6" /><path d="M10 14 21 3" /><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></symbol>
+<symbol id="ic-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0" /><circle cx="12" cy="12" r="3" /></symbol>
+<symbol id="ic-file-text" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /><path d="M14 2v5a1 1 0 0 0 1 1h5" /><path d="M10 9H8" /><path d="M16 13H8" /><path d="M16 17H8" /></symbol>
+<symbol id="ic-filter" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 20a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341L21.74 4.67A1 1 0 0 0 21 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14z" /></symbol>
+<symbol id="ic-flag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" /></symbol>
+<symbol id="ic-gauge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 14 4-4" /><path d="M3.34 19a10 10 0 1 1 17.32 0" /></symbol>
+<symbol id="ic-git-branch" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6a9 9 0 0 0-9 9V3" /><circle cx="18" cy="6" r="3" /><circle cx="6" cy="18" r="3" /></symbol>
+<symbol id="ic-handshake" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17 2 2a1 1 0 1 0 3-3" /><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" /><path d="m21 3 1 11h-2" /><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" /><path d="M3 4h8" /></symbol>
+<symbol id="ic-info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><path d="M12 16v-4" /><path d="M12 8h.01" /></symbol>
+<symbol id="ic-japanese-yen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9.5V21m0-11.5L6 3m6 6.5L18 3" /><path d="M6 15h12" /><path d="M6 11h12" /></symbol>
+<symbol id="ic-layers" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" /><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12" /><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17" /></symbol>
+<symbol id="ic-lightbulb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" /><path d="M9 18h6" /><path d="M10 22h4" /></symbol>
+<symbol id="ic-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" /><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" /></symbol>
+<symbol id="ic-list-checks" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 5h8" /><path d="M13 12h8" /><path d="M13 19h8" /><path d="m3 17 2 2 4-4" /><path d="m3 7 2 2 4-4" /></symbol>
+<symbol id="ic-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" /><rect x="2" y="4" width="20" height="16" rx="2" /></symbol>
+<symbol id="ic-map-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /><circle cx="12" cy="10" r="3" /></symbol>
+<symbol id="ic-megaphone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" /><path d="M6 14a12 12 0 0 0 2.4 7.2 2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14" /><path d="M8 6v8" /></symbol>
+<symbol id="ic-minus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /></symbol>
+<symbol id="ic-phone-call" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2a9 9 0 0 1 9 9" /><path d="M13 6a5 5 0 0 1 5 5" /><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" /></symbol>
+<symbol id="ic-quote" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z" /><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z" /></symbol>
+<symbol id="ic-receipt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 17V7" /><path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8" /><path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /></symbol>
+<symbol id="ic-rocket" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" /><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09" /><path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z" /><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05" /></symbol>
+<symbol id="ic-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.34-4.34" /><circle cx="11" cy="11" r="8" /></symbol>
+<symbol id="ic-settings" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915" /><circle cx="12" cy="12" r="3" /></symbol>
+<symbol id="ic-shield-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="m9 12 2 2 4-4" /></symbol>
+<symbol id="ic-sparkles" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" /><path d="M20 2v4" /><path d="M22 4h-4" /><circle cx="4" cy="20" r="2" /></symbol>
+<symbol id="ic-star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></symbol>
+<symbol id="ic-table" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18" /><rect width="18" height="18" x="3" y="3" rx="2" /><path d="M3 9h18" /><path d="M3 15h18" /></symbol>
+<symbol id="ic-target" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></symbol>
+<symbol id="ic-trending-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 17h6v-6" /><path d="m22 17-8.5-8.5-5 5L2 7" /></symbol>
+<symbol id="ic-trending-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 7h6v6" /><path d="m22 7-8.5 8.5-5-5L2 17" /></symbol>
+<symbol id="ic-triangle-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" /><path d="M12 9v4" /><path d="M12 17h.01" /></symbol>
+<symbol id="ic-user-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 11 2 2 4-4" /><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /></symbol>
+<symbol id="ic-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><path d="M16 3.128a4 4 0 0 1 0 7.744" /><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><circle cx="9" cy="7" r="4" /></symbol>
+<symbol id="ic-wallet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" /><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" /></symbol>
+<symbol id="ic-workflow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="8" x="3" y="3" rx="2" /><path d="M7 11v4a2 2 0 0 0 2 2h4" /><rect width="8" height="8" x="13" y="13" rx="2" /></symbol>
+<symbol id="ic-wrench" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z" /></symbol>
+<symbol id="ic-zap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z" /></symbol>
+<symbol id="ic-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /></symbol>
+<symbol id="ic-message-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" /></symbol>
+<symbol id="ic-bookmark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" /></symbol>
+</defs><symbol id="ic-languages" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 8 6 6" /> <path d="m4 14 6-6 2-3" /> <path d="M2 5h12" /> <path d="M7 2h1" /> <path d="m22 22-5-10-5 10" /> <path d="M14 18h6" /></symbol>
+<symbol id="ic-repeat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m17 2 4 4-4 4" /> <path d="M3 11v-1a4 4 0 0 1 4-4h14" /> <path d="m7 22-4-4 4-4" /> <path d="M21 13v1a4 4 0 0 1-4 4H3" /></symbol>
+<symbol id="ic-play" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z" /></symbol>
+<symbol id="ic-pause" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="14" y="3" width="5" height="18" rx="1" /> <rect x="5" y="3" width="5" height="18" rx="1" /></symbol>
+<symbol id="ic-rotate-ccw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /> <path d="M3 3v5h5" /></symbol>
+</svg>
+
+<div class="load" id="load" aria-hidden="true"><div class="clock" id="clock">00:00</div><div class="ft">full time</div></div>
+
+<header class="hdr" id="hdr">
+  <a class="logo" href="#top" aria-label="RE:PLAY"><img class="lg-row" src="assets/img_01_75ee9071.png" alt="RE:PLAY" width="1485" height="160"><img class="lg-mark" src="assets/img_02_ed9717da.png" alt="" aria-hidden="true" width="341" height="120"></a>
+  <div class="hr">
+    <a class="tbtn bk" href="#booking"><span>面談を予約</span></a>
+    <a class="tbtn" href="https://www.tiktok.com/@replay_syukatsu" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 1 1-1.84-2.48V9.8a5.68 5.68 0 1 0 4.93 5.63V8.87a7.35 7.35 0 0 0 4.3 1.38V7.16a4.28 4.28 0 0 1-3.24-1.34Z"/></svg><span>TikTok</span></a>
+    <button class="burger" type="button" aria-label="メニュー" data-open="menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+
+<section class="fv slide" id="top">
+  <div class="media" id="media" data-interval="2000">
+    <img style="--px:60%; --cy:23%" class="kv on" src="assets/img_03_fdce33cd.jpg" alt="" aria-hidden="true" width="1672" height="941">
+    <img style="--px:64%; --cy:21%" class="kv" src="assets/img_04_2162b1ac.jpg" alt="" aria-hidden="true" width="1672" height="941" loading="lazy">
+    <img style="--px:62%; --cy:21.5%" class="kv" src="assets/img_05_e7ca2cb2.jpg" alt="" aria-hidden="true" width="1672" height="941" loading="lazy">
+    <img style="--px:66%; --cy:19%" class="kv" src="assets/img_06_0a21a02b.jpg" alt="" aria-hidden="true" width="1672" height="941" loading="lazy">
+    <img style="--px:62%; --cy:19.5%" class="kv" src="assets/img_07_75d65e86.jpg" alt="" aria-hidden="true" width="1672" height="941" loading="lazy">
+    <img style="--px:62%; --cy:26%" class="kv" src="assets/img_08_ff55cad6.jpg" alt="" aria-hidden="true" width="1672" height="941" loading="lazy">
+    <img style="--px:66%; --cy:20.5%" class="kv" src="assets/img_09_2a645424.jpg" alt="" aria-hidden="true" width="1672" height="941" loading="lazy">
+    <video id="kvvid" muted loop playsinline autoplay preload="metadata" aria-hidden="true" tabindex="-1"></video>
+  </div>
+  <div class="fv-geo" aria-hidden="true"><i class="g1"></i><i class="g2"></i><i class="g3"></i></div>
+  <div class="copy">
+    
+    <div class="fv-l"><h1>次の挑戦は、<br>もう始まっている</h1>
+    <p class="fvsub">部活に注いできた「本気」を、企業に伝わる言葉に変える。</p></div>
+    <div class="fv-r">
+    <ul class="crowns" aria-label="REFLAME新卒事業の実績"><li class="crown"><svg class="lr" viewBox="0 0 40 96" aria-hidden="true"><path d="M33 94 C16 82 6 62 7 38 C8 22 14 10 22 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><g fill="currentColor"><ellipse cx="13" cy="14" rx="4" ry="9" transform="rotate(-30 13 14)"/><ellipse cx="8" cy="28" rx="4" ry="9" transform="rotate(-16 8 28)"/><ellipse cx="6" cy="43" rx="4" ry="9" transform="rotate(-4 6 43)"/><ellipse cx="7" cy="58" rx="4" ry="9" transform="rotate(8 7 58)"/><ellipse cx="11" cy="72" rx="4" ry="9" transform="rotate(22 11 72)"/><ellipse cx="19" cy="84" rx="4" ry="9" transform="rotate(40 19 84)"/><ellipse cx="22" cy="9" rx="3.4" ry="7.5" transform="rotate(36 22 9)"/><ellipse cx="18" cy="22" rx="3.4" ry="7.5" transform="rotate(44 18 22)"/><ellipse cx="16" cy="37" rx="3.4" ry="7.5" transform="rotate(56 16 37)"/><ellipse cx="16" cy="52" rx="3.4" ry="7.5" transform="rotate(66 16 52)"/><ellipse cx="19" cy="66" rx="3.4" ry="7.5" transform="rotate(76 19 66)"/></g></svg><div class="ci"><span class="cl">支援実績</span><span class="cv">4,200<small>名以上</small></span></div><svg class="lr rr" viewBox="0 0 40 72" aria-hidden="true"><path d="M30 70 C14 60 6 44 8 24 C9 14 13 7 18 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><g fill="currentColor"><ellipse cx="11" cy="14" rx="3.2" ry="7" transform="rotate(-28 11 14)"/><ellipse cx="7.5" cy="26" rx="3.2" ry="7" transform="rotate(-12 7.5 26)"/><ellipse cx="7.5" cy="39" rx="3.2" ry="7" transform="rotate(4 7.5 39)"/><ellipse cx="11" cy="51" rx="3.2" ry="7" transform="rotate(22 11 51)"/><ellipse cx="18.5" cy="61" rx="3" ry="6.5" transform="rotate(42 18.5 61)"/><ellipse cx="18" cy="8" rx="2.6" ry="5.6" transform="rotate(38 18 8)"/><ellipse cx="15.5" cy="20" rx="2.6" ry="5.6" transform="rotate(48 15.5 20)"/><ellipse cx="14" cy="33" rx="2.6" ry="5.6" transform="rotate(62 14 33)"/><ellipse cx="16" cy="46" rx="2.6" ry="5.6" transform="rotate(78 16 46)"/></g></svg></li><li class="crown"><svg class="lr" viewBox="0 0 40 96" aria-hidden="true"><path d="M33 94 C16 82 6 62 7 38 C8 22 14 10 22 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><g fill="currentColor"><ellipse cx="13" cy="14" rx="4" ry="9" transform="rotate(-30 13 14)"/><ellipse cx="8" cy="28" rx="4" ry="9" transform="rotate(-16 8 28)"/><ellipse cx="6" cy="43" rx="4" ry="9" transform="rotate(-4 6 43)"/><ellipse cx="7" cy="58" rx="4" ry="9" transform="rotate(8 7 58)"/><ellipse cx="11" cy="72" rx="4" ry="9" transform="rotate(22 11 72)"/><ellipse cx="19" cy="84" rx="4" ry="9" transform="rotate(40 19 84)"/><ellipse cx="22" cy="9" rx="3.4" ry="7.5" transform="rotate(36 22 9)"/><ellipse cx="18" cy="22" rx="3.4" ry="7.5" transform="rotate(44 18 22)"/><ellipse cx="16" cy="37" rx="3.4" ry="7.5" transform="rotate(56 16 37)"/><ellipse cx="16" cy="52" rx="3.4" ry="7.5" transform="rotate(66 16 52)"/><ellipse cx="19" cy="66" rx="3.4" ry="7.5" transform="rotate(76 19 66)"/></g></svg><div class="ci"><span class="cl">満足度</span><span class="cv">97<small>%</small></span></div><svg class="lr rr" viewBox="0 0 40 72" aria-hidden="true"><path d="M30 70 C14 60 6 44 8 24 C9 14 13 7 18 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><g fill="currentColor"><ellipse cx="11" cy="14" rx="3.2" ry="7" transform="rotate(-28 11 14)"/><ellipse cx="7.5" cy="26" rx="3.2" ry="7" transform="rotate(-12 7.5 26)"/><ellipse cx="7.5" cy="39" rx="3.2" ry="7" transform="rotate(4 7.5 39)"/><ellipse cx="11" cy="51" rx="3.2" ry="7" transform="rotate(22 11 51)"/><ellipse cx="18.5" cy="61" rx="3" ry="6.5" transform="rotate(42 18.5 61)"/><ellipse cx="18" cy="8" rx="2.6" ry="5.6" transform="rotate(38 18 8)"/><ellipse cx="15.5" cy="20" rx="2.6" ry="5.6" transform="rotate(48 15.5 20)"/><ellipse cx="14" cy="33" rx="2.6" ry="5.6" transform="rotate(62 14 33)"/><ellipse cx="16" cy="46" rx="2.6" ry="5.6" transform="rotate(78 16 46)"/></g></svg></li><li class="crown"><svg class="lr" viewBox="0 0 40 96" aria-hidden="true"><path d="M33 94 C16 82 6 62 7 38 C8 22 14 10 22 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><g fill="currentColor"><ellipse cx="13" cy="14" rx="4" ry="9" transform="rotate(-30 13 14)"/><ellipse cx="8" cy="28" rx="4" ry="9" transform="rotate(-16 8 28)"/><ellipse cx="6" cy="43" rx="4" ry="9" transform="rotate(-4 6 43)"/><ellipse cx="7" cy="58" rx="4" ry="9" transform="rotate(8 7 58)"/><ellipse cx="11" cy="72" rx="4" ry="9" transform="rotate(22 11 72)"/><ellipse cx="19" cy="84" rx="4" ry="9" transform="rotate(40 19 84)"/><ellipse cx="22" cy="9" rx="3.4" ry="7.5" transform="rotate(36 22 9)"/><ellipse cx="18" cy="22" rx="3.4" ry="7.5" transform="rotate(44 18 22)"/><ellipse cx="16" cy="37" rx="3.4" ry="7.5" transform="rotate(56 16 37)"/><ellipse cx="16" cy="52" rx="3.4" ry="7.5" transform="rotate(66 16 52)"/><ellipse cx="19" cy="66" rx="3.4" ry="7.5" transform="rotate(76 19 66)"/></g></svg><div class="ci"><span class="cl">内定先</span><span class="cv">154<small>社</small></span></div><svg class="lr rr" viewBox="0 0 40 72" aria-hidden="true"><path d="M30 70 C14 60 6 44 8 24 C9 14 13 7 18 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><g fill="currentColor"><ellipse cx="11" cy="14" rx="3.2" ry="7" transform="rotate(-28 11 14)"/><ellipse cx="7.5" cy="26" rx="3.2" ry="7" transform="rotate(-12 7.5 26)"/><ellipse cx="7.5" cy="39" rx="3.2" ry="7" transform="rotate(4 7.5 39)"/><ellipse cx="11" cy="51" rx="3.2" ry="7" transform="rotate(22 11 51)"/><ellipse cx="18.5" cy="61" rx="3" ry="6.5" transform="rotate(42 18.5 61)"/><ellipse cx="18" cy="8" rx="2.6" ry="5.6" transform="rotate(38 18 8)"/><ellipse cx="15.5" cy="20" rx="2.6" ry="5.6" transform="rotate(48 15.5 20)"/><ellipse cx="14" cy="33" rx="2.6" ry="5.6" transform="rotate(62 14 33)"/><ellipse cx="16" cy="46" rx="2.6" ry="5.6" transform="rotate(78 16 46)"/></g></svg></li></ul>
+    <a class="btn fvbtn" href="#booking">無料で相談する<span class="chev" aria-hidden="true">›</span></a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="media slide" id="media-logos" aria-label="掲載メディア">
+  <p class="mt"><svg class="lr" viewBox="0 0 40 96" aria-hidden="true"><path d="M33 94 C16 82 6 62 7 38 C8 22 14 10 22 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><g fill="currentColor"><ellipse cx="13" cy="14" rx="4" ry="9" transform="rotate(-30 13 14)"/><ellipse cx="8" cy="28" rx="4" ry="9" transform="rotate(-16 8 28)"/><ellipse cx="6" cy="43" rx="4" ry="9" transform="rotate(-4 6 43)"/><ellipse cx="7" cy="58" rx="4" ry="9" transform="rotate(8 7 58)"/><ellipse cx="11" cy="72" rx="4" ry="9" transform="rotate(22 11 72)"/><ellipse cx="19" cy="84" rx="4" ry="9" transform="rotate(40 19 84)"/><ellipse cx="22" cy="9" rx="3.4" ry="7.5" transform="rotate(36 22 9)"/><ellipse cx="18" cy="22" rx="3.4" ry="7.5" transform="rotate(44 18 22)"/><ellipse cx="16" cy="37" rx="3.4" ry="7.5" transform="rotate(56 16 37)"/><ellipse cx="16" cy="52" rx="3.4" ry="7.5" transform="rotate(66 16 52)"/><ellipse cx="19" cy="66" rx="3.4" ry="7.5" transform="rotate(76 19 66)"/></g></svg><span>掲載メディア</span><svg class="lr rr" viewBox="0 0 40 72" aria-hidden="true"><path d="M30 70 C14 60 6 44 8 24 C9 14 13 7 18 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><g fill="currentColor"><ellipse cx="11" cy="14" rx="3.2" ry="7" transform="rotate(-28 11 14)"/><ellipse cx="7.5" cy="26" rx="3.2" ry="7" transform="rotate(-12 7.5 26)"/><ellipse cx="7.5" cy="39" rx="3.2" ry="7" transform="rotate(4 7.5 39)"/><ellipse cx="11" cy="51" rx="3.2" ry="7" transform="rotate(22 11 51)"/><ellipse cx="18.5" cy="61" rx="3" ry="6.5" transform="rotate(42 18.5 61)"/><ellipse cx="18" cy="8" rx="2.6" ry="5.6" transform="rotate(38 18 8)"/><ellipse cx="15.5" cy="20" rx="2.6" ry="5.6" transform="rotate(48 15.5 20)"/><ellipse cx="14" cy="33" rx="2.6" ry="5.6" transform="rotate(62 14 33)"/><ellipse cx="16" cy="46" rx="2.6" ry="5.6" transform="rotate(78 16 46)"/></g></svg></p>
+  <div class="mq"><div class="mrow"><img src="assets/img_10_822bbf42.png" alt="NewsPicks"><img src="assets/img_11_088f43e3.png" alt="日刊SPA!"><img src="assets/img_12_961027f8.png" alt="新R25"><img src="assets/img_13_f389e4b1.png" alt="読売新聞オンライン"><img src="assets/img_14_03ab53ad.png" alt="朝日新聞DIGITAL"><img src="assets/img_15_fa1373dd.png" alt="毎日新聞社"><img src="assets/img_16_b4781c8f.png" alt="東洋経済ONLINE"><img src="assets/img_17_87cd1e00.png" alt="現代ビジネス"><img src="assets/img_18_0c7115e3.png" alt="PRESIDENT Online"><img src="assets/img_10_822bbf42.png" alt="" aria-hidden="true"><img src="assets/img_11_088f43e3.png" alt="" aria-hidden="true"><img src="assets/img_12_961027f8.png" alt="" aria-hidden="true"><img src="assets/img_13_f389e4b1.png" alt="" aria-hidden="true"><img src="assets/img_14_03ab53ad.png" alt="" aria-hidden="true"><img src="assets/img_15_fa1373dd.png" alt="" aria-hidden="true"><img src="assets/img_16_b4781c8f.png" alt="" aria-hidden="true"><img src="assets/img_17_87cd1e00.png" alt="" aria-hidden="true"><img src="assets/img_18_0c7115e3.png" alt="" aria-hidden="true"></div></div>
+  <p class="mnote">※プレスリリース配信による掲載を含みます</p>
+</section>
+
+<section class="sec nayami slide" id="nayami">
+  <div class="wrap">
+    <h2 class="ny-h rv">こんな悩み<br class="sp">抱えていませんか…？</h2>
+    <ul class="ny-list"><li class="rv" style="--d:0ms"><div class="wi"><img src="assets/img_19_c7019094.png" alt="" width="160" height="267"></div><p class="bub">15年間の部活を、400字のガクチカにどうまとめるのか</p></li><li class="rv r" style="--d:80ms"><div class="wi"><img src="assets/img_20_92081e08.png" alt="" width="160" height="267"></div><p class="bub">大学時代、強豪に進学したけどレギュラーじゃない…</p></li><li class="rv" style="--d:160ms"><div class="wi"><img src="assets/img_21_6cc1f1af.png" alt="" width="160" height="267"></div><p class="bub">高校で部活動引退、大学のガクチカがない</p></li><li class="rv r" style="--d:240ms"><div class="wi"><img src="assets/img_22_3c7095fa.png" alt="" width="160" height="267"></div><p class="bub">部活と同等くらいに頑張れることなんてあるのか…</p></li></ul>
+    <p class="ny-ans rv"><span class="arw" aria-hidden="true">→</span>こんな悩みに、<b>元体育会系OBの就活のプロ</b>が伴走します</p>
+  </div>
+</section>
+
+<section class="ab slide" id="message">
+  <div class="blk">
+    <div class="wrap">
+      <div class="ttl rv"><span class="en">what we do</span><i class="bar" aria-hidden="true"></i><h2>私たちが選ばれている理由</h2></div>
+      <ol class="cards">
+        <li class="card rv" style="--d:0ms"><div class="top"><span class="no">01</span><span class="ib"><svg class="ic ic-lg" aria-hidden="true"><use href="#ic-handshake"/></svg></span></div>
+          <h4>同じ思いをしたOBが直接サポート</h4><p>引退の喪失感も、レギュラー争いも、両立の苦しさも。同じ経験をしてきたOBが、直接相談に乗ります。</p></li>
+        <li class="card rv" style="--d:60ms"><div class="top"><span class="no">02</span><span class="ib"><svg class="ic ic-lg" aria-hidden="true"><use href="#ic-list-checks"/></svg></span></div>
+          <h4>自己分析〜面接対策までフルでサポート</h4><p>自己分析から書類・面接の対策、企業選び、内定後の相談まで、就職活動のすべてを一緒に進めます。</p></li>
+        <li class="card rv" style="--d:120ms"><div class="top"><span class="no">03</span><span class="ib"><svg class="ic ic-lg" aria-hidden="true"><use href="#ic-calendar"/></svg></span></div>
+          <h4>部活・サークルと両立できる</h4><p>練習や試合、合宿の予定に合わせて、自分に合ったスケジュールで進められます。</p></li>
+        <li class="card rv" style="--d:180ms"><div class="top"><span class="no">04</span><span class="ib"><svg class="ic ic-lg" aria-hidden="true"><use href="#ic-flag"/></svg></span></div>
+          <h4>内定をゴールではなくスタートラインへ</h4><p>内定が出てからも、入社までの準備や迷いを同じOBと整理し、スタートラインに立つところまで伴走します。</p></li>
+      </ol>
+    </div>
+  </div>
+
+  </div>
+</section>
+
+
+
+<section class="sec team slide" id="team">
+  <div class="wrap">
+    <div class="ttl2 rv"><i class="ln" aria-hidden="true"></i><span class="en">MEMBER</span></div>
+    <h2 class="h-min rv">OBがアドバイザーとして伴走</h2>
+    <p class="lead-min rv">競技をやりきって、いまは仕事に同じ熱を注いでいるメンバーです。</p>
+    <div class="cine-list rv">
+      <article class="cine">
+        <div class="ph"><img src="assets/img_23_18a13783.jpg" alt="西岡輝哉さん" loading="lazy" style="object-position:50% 30%"></div>
+        <div class="tx">
+          <span class="tag">元 サッカー部</span>
+          <h3>西岡輝哉</h3><span class="ro">TERUYA NISHIOKA</span>
+          <i class="rule" aria-hidden="true"></i>
+          <ul class="career"><li><b>中学時代</b><span>関西大会ベスト32</span></li><li><b>高校</b><span>蒼開高校サッカー部（県大会準優勝）</span></li><li><b>大学</b><span>立命館大学で自らサッカーチームを設立</span></li></ul>
+          <p class="note">スタートアップで長期インターンを経験</p>
+          <figure class="then"><img src="assets/img_24_ba604262.jpg" alt="西岡輝哉さんの現役時代" loading="lazy"><figcaption>現役時代</figcaption></figure>
+        </div>
+      </article>
+      <article class="cine">
+        <div class="ph"><img src="assets/img_25_9dd35167.jpg" alt="岡畑統和さん" loading="lazy" style="object-position:50% 30%"></div>
+        <div class="tx">
+          <span class="tag">元 野球部</span>
+          <h3>岡畑統和</h3><span class="ro">NORIKAZU OKAHATA</span>
+          <i class="rule" aria-hidden="true"></i>
+          <ul class="career"><li><b>高校</b><span>関西大学第一高校</span></li><li><b>大学</b><span>関西大学野球部に所属（関西学生野球連盟 リーグ優勝）</span></li></ul>
+          <p class="note">第53回 明治神宮野球大会 ベスト8</p>
+          <figure class="then"><img src="assets/img_26_3ff33e7b.jpg" alt="岡畑統和さんの現役時代" loading="lazy"><figcaption>現役時代</figcaption></figure>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec voice slide" id="voice">
+  <div class="wrap">
+    <div class="ttl rv"><span class="en">Voices</span><i class="bar" aria-hidden="true"></i><h2>熱狂を続けている先輩たち</h2></div>
+    <p class="lead rv">体育会に所属し、今もキャリアで輝き続けている方を紹介します。</p>
+    <div class="vslider rv" id="vslider">
+      <div class="vtrack" id="vtrack">
+    <article class="vcard">
+      <div class="ph"><img src="assets/img_27_52bb6f09.jpg" alt="南さんの現役時代" loading="lazy"></div>
+      <div class="tx">
+        <h3>南さん</h3>
+        <ul>
+          <li>小学生から高校時代（大阪府立金剛高校サッカー部）までサッカーを続け、大阪国際大学でもサッカー部へ</li>
+          <li class="q">「何か物足りない。サッカーの時みたいに夢中になれる仕事がしたい」と就職活動を行う</li>
+        </ul>
+      </div>
+    </article>
+    <article class="vcard">
+      <div class="ph"><img src="assets/img_28_15618962.jpg" alt="松岡さんの現役時代" loading="lazy" style="object-position:40% 45%"></div>
+      <div class="tx">
+        <h3>松岡さん</h3>
+        <ul>
+          <li>高校時代（盈進高校 剣道部）：全国選抜大会出場</li>
+          <li>大学時代（立命館大学）：関西大会優勝</li>
+          <li class="q">「仕事でも現役時代と同じくらいの熱量を」を大事に、就職活動に取り組む</li>
+        </ul>
+      </div>
+    </article>
+    <article class="vcard">
+      <div class="ph"><img src="assets/img_29_461975e0.jpg" alt="馬場さんの現役時代" loading="lazy" style="object-position:42% 40%"></div>
+      <div class="tx">
+        <h3>馬場さん</h3>
+        <ul>
+          <li>中学時代：西日本大会優勝・関西大会ベスト8・大阪大会優勝</li>
+          <li>高校時代（鹿児島実業高校）：県大会ベスト4</li>
+          <li>大学時代（流通科学大学）：関西3部リーグ3位・体育会サッカー部主将</li>
+          <li class="q">「稼いでかっこいい社会人になりたい」と就職活動を行う</li>
+        </ul>
+      </div>
+    </article>
+    <!-- 山本さんのカード：写真が届くまで非公開（2026-10-23 鈴村さん指示）。公開時はこのコメントを外す
+    <article class="vcard">
+      <div class="ph wait" aria-label="写真は準備中"><span>PHOTO COMING SOON</span></div>
+      <div class="tx">
+        <h3>山本さん</h3>
+        <ul>
+          <li>高校時代（蒼開高校 サッカー部）：県大会準優勝</li>
+          <li>大学ではサッカーサークルで活動：関西大会優勝・同好会リーグ関西2位</li>
+          <li>全国大会778チーム中5位・全国大会9位</li>
+          （本人の一言は回収後に追加）
+        </ul>
+      </div>
+    </article>
+    -->
+      </div>
+      <div class="vnav"><button type="button" class="vbtn prev" aria-label="前へ">‹</button><div class="vdots" id="vdots"></div><button type="button" class="vbtn next" aria-label="次へ">›</button></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="cta slide" id="cta">
+  <div class="bg" style="background-image:url('assets/img_30_3608abbe.jpg')" aria-hidden="true"></div>
+  <div class="wrap">
+    <span class="en rv">Next Play</span>
+    <h2 class="rv">さあ、<br class="sp">次のステージへ行こう。</h2>
+    <a class="rv gift-line" href="#booking">面談参加特典　「27卒部活生のES集」プレゼント✨</a>
+  </div>
+</section>
+
+<section class="sec booking slide" id="booking">
+  <div class="wrap">
+    <div class="gift rv">
+      <div class="gift-cover" aria-hidden="true"><img src="assets/img_31_a2c2e641.jpg" alt="" loading="lazy" width="560" height="703"></div>
+      <div class="gift-tx">
+        <span class="en">Present</span>
+        <h3>面談に参加した方限定<br>「27卒部活生のES集」をお渡しします</h3>
+        <p>スポーツに本気だった27卒の先輩が、実際に提出して内定を取ったES。競技の経験をどう企業に伝わる言葉にしたかを、原文のまま読めます。</p>
+      </div>
+    </div>
+    <ol class="after rv" aria-label="予約してからの流れ">
+      <li><b>1</b><span>日時を選んで予約（1分）</span></li>
+      <li><b>2</b><span>確認メールとZoomの案内が届く</span></li>
+      <li><b>3</b><span>当日はオンラインで1時間。競技の話から始めます</span></li>
+    </ol>
+    <div class="bk-box rv"><div id="reflame-booking"></div></div>
+  </div>
+</section>
+<!-- 予約フォーム：新卒LPと同じ自社部品。slug「ng-replay」（2026-10-23 鈴村さん指定のRE:PLAY専用リンクに差し替え。旧=sns-ng-fujimoto）。reflame.co.jp上でしか表示されない（CORS） -->
+<script src="https://designer.my.site.com/schedulingvforcesite/services/apexrest/booking/v1/embed.js" data-slug="ng-replay" data-target="#reflame-booking"></script>
+<script>
+/* 予約フォームをLPの色に合わせる（部品の影の中へ上書きの<style>を足す。部品そのものは変えない） */
+(function(){
+  var host=document.getElementById('reflame-booking'); if(!host) return;
+  var CSS=[
+    '.w{color:var(--ink);font-family:var(--sans);max-width:none;color-scheme:dark}',
+    'label{color:var(--ink2)}', '.req{color:var(--crimson)}',
+    'input,select,textarea{background:var(--ground);border-color:var(--line);color:var(--ink)}',
+    'input::placeholder,textarea::placeholder{color:var(--ink3)}', 'select option{background:var(--ground2);color:var(--ink)}',
+    'input:focus,select:focus,textarea:focus{outline-color:var(--ink);border-color:var(--ink)}',
+    '.primary{background:var(--ink);color:var(--ground2)}', '.primary:hover{background:var(--ink2)}',
+    '.primary:disabled{background:var(--surface);color:var(--ink3)}',
+    '.err{background:transparent;border-color:var(--crimson);color:var(--ink)}', '.fe{color:var(--crimson)}',
+    '.date,.slot{background:var(--ground);border-color:var(--line);color:var(--ink)}',
+    '.slot:hover{border-color:var(--ink);color:var(--ink)}',
+    '.date.on,.slot.on{background:var(--ink);border-color:var(--ink);color:var(--ground2)}',
+    '.confirm-q,.confirm-dt{color:var(--ink)}', '.confirm-back{background:var(--surface);color:var(--ink2)}', '.confirm-go{background:var(--ink);color:var(--ground2)}',
+    '.none,.load,.step,.wk-lbl,.wk-hint{color:var(--ink3)}', '.msg p{color:var(--ink2)}',
+    '.wk-nav button{background:var(--ground);border-color:var(--line);color:var(--ink2)}',
+    '.wk-head .wk-day{color:var(--ink)}', '.wk-head .wk-dow{color:var(--ink3)}', '.wk-head.past .wk-day,.wk-head.past .wk-dow{color:var(--line)}',
+    '.wk-cell.open{background:transparent;border-color:var(--ink);color:var(--ink)}', '.wk-cell.open:hover{background:var(--surface)}',
+    '.wk-cell.closed{background:var(--ground);border-color:var(--surface);color:var(--line)}',
+    '.who-b{background:var(--ground);border-color:var(--line);color:var(--ink)}', '.who-b:hover{border-color:var(--ink);box-shadow:none}',
+    '.who-ini{background:var(--surface);color:var(--ink)}', '.who-bio{color:var(--ink3)}',
+    '.who-any{border-color:var(--line);color:var(--ink2)}', '.who-any:hover{border-color:var(--ink);color:var(--ink)}', '.who-back{color:var(--ink2)}'
+  ].join('');
+  function apply(){ var r=host.shadowRoot; if(!r) return false; if(r.querySelector('style[data-lp]')) return true;
+    var s=document.createElement('style'); s.setAttribute('data-lp',''); s.textContent=CSS; r.appendChild(s); return true; }
+  if(!apply()){ var n=0, tm=setInterval(function(){ if(apply()||++n>100) clearInterval(tm); },100); }
+})();
+</script>
+
+<a class="stick" id="stick" href="#booking">無料で相談する<small>1時間・オンライン</small></a>
+
+<footer>
+  <div class="wrap">
+    <div class="grid">
+      <div class="brand">
+        <a class="logo" href="#top" aria-label="RE:PLAY"><img src="assets/img_01_75ee9071.png" alt="RE:PLAY" width="1485" height="160"></a>
+        <p>スポーツに本気だった人のための、部室。熱を、次のフィールドへ。</p>
+      </div>
+      <div><h4>about</h4><ul><li><a href="#message">メッセージ</a></li><li><a href="#team">メンバー</a></li></ul></div>
+      <div><h4>information</h4><ul><li><a href="#voice">お客様の声</a></li><li><a href="#news">News</a></li></ul></div>
+      <div><h4>contact</h4><ul><li><a href="https://www.tiktok.com/@replay_syukatsu" target="_blank" rel="noopener">TikTok</a></li></ul></div>
+    </div>
+    <p class="fnote">運営：株式会社REFLAME 新卒事業<br>お問い合わせは TikTok アカウントの DM より受け付けています。<br><a href="https://reflame.co.jp/privacy/" target="_blank" rel="noopener" style="color:inherit; text-decoration:underline;">プライバシーポリシー</a></p>
+  </div>
+</footer>
+
+<div class="ov" id="menu" hidden>
+  <div class="bar"><span class="t">メニュー</span><button type="button" class="ovclose" data-close>閉じる ✕</button></div>
+  <nav class="list" aria-label="メニュー">
+    <a href="#message" data-close>メッセージ <span>message</span></a>
+    <a href="#team" data-close>メンバー <span>member</span></a>
+    <a href="#voice" data-close>お客様の声 <span>voice</span></a>
+    <a href="#news" data-close>News <span>news</span></a>
+  </nav>
+</div>
+
+<script>
+(function(){
+  'use strict';
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var $=function(s){return document.querySelector(s);};
+
+  /* ローダー：時計を0.8秒で進めて消す */
+  (function(){
+    var l=$('#load'), c=$('#clock');
+    function done(){ l.classList.add('done'); document.body.classList.add('ready'); }
+    if(reduce){ done(); return; }
+    var t0=null;
+    function step(ts){ if(t0===null)t0=ts; var p=Math.min(1,(ts-t0)/800), m=Math.round((1-Math.pow(1-p,3))*90);
+      c.textContent=(m<10?'0'+m:m)+':00'; if(p<1) requestAnimationFrame(step); else setTimeout(done,250); }
+    requestAnimationFrame(step);
+  })();
+
+  /* ヘッダー */
+  var hdr=$('#hdr');
+  function hd(){ hdr.classList.toggle('solid',(window.scrollY||0)>window.innerHeight*0.4); }
+  window.addEventListener('scroll',hd,{passive:true}); hd();
+
+  /* FVの映像 */
+  (function(){
+    var m=$('#media'), v=$('#kvvid'); var src=m.getAttribute('data-mp4'); m.removeAttribute('data-mp4');
+    var sd=navigator.connection&&navigator.connection.saveData;
+    if(!src||reduce||sd) return;
+    var s=document.createElement('source'); s.src=src; s.type='video/mp4'; v.appendChild(s);
+    v.addEventListener('loadeddata',function(){m.classList.add('on');},{once:true});
+    v.load(); var p=v.play(); if(p&&p.catch) p.catch(function(){});
+    if('IntersectionObserver' in window){ new IntersectionObserver(function(es){es.forEach(function(e){ if(e.isIntersecting) v.play().catch(function(){}); else v.pause(); });},{threshold:0.01}).observe(m); }
+  })();
+
+  /* RE:PLAYとは（v5.4） */
+  var cl=function(v){return v<0?0:v>1?1:v;};
+  var ez=function(v){return v<.5?2*v*v:1-Math.pow(-2*v+2,2)/2;};
+  var lerp=function(a,b,k){return a+(b-a)*k;};
+  /* D：30分の4段を、スクロールに合わせて線がたどる */
+  (function(){
+    var st=document.getElementById('steps'); if(!st) return;
+    var lis=[].slice.call(st.children), q=false;
+    function frame(){ q=false; var r=st.getBoundingClientRect(), vh=window.innerHeight;
+      var f=reduce?1:cl((vh*.72-r.top)/(r.height*.8));
+      st.style.setProperty('--f',f.toFixed(3));
+      lis.forEach(function(li,i){ li.classList.toggle('on', f>=i/(lis.length-1)-.02); }); }
+    function req(){ if(!q){q=true; requestAnimationFrame(frame);} }
+    window.addEventListener('scroll',req,{passive:true}); window.addEventListener('resize',req); frame();
+  })();
+  /* ビフォーアフターのタブ（v5.9） */
+  (function(){
+    var ba=document.getElementById('ba'); if(!ba) return;
+    var tabs=[].slice.call(ba.querySelectorAll('.ba-tabs button')), sets=[].slice.call(ba.querySelectorAll('.ba-set'));
+    tabs.forEach(function(b,i){ b.addEventListener('click',function(){
+      tabs.forEach(function(x,k){ x.classList.toggle('on',k===i); x.setAttribute('aria-selected',k===i?'true':'false'); });
+      sets.forEach(function(st,k){ st.hidden=(k!==i); st.classList.remove('on'); });
+      void sets[i].offsetWidth; sets[i].classList.add('on');
+    }); });
+  })();
+  /* 想いの段：競技写真のクロスフェード（v7.0） */
+  (function(){
+    var box=document.getElementById('media'); if(!box||reduce) return;
+    var sl=[].slice.call(box.querySelectorAll('.kv')); if(sl.length<2) return;
+    var i=0, iv=parseInt(box.getAttribute('data-interval'),10)||1000, tm=null;
+    function next(){ sl[i].classList.remove('on'); i=(i+1)%sl.length; sl[i].classList.add('on'); }
+    function start(){ if(!tm) tm=setInterval(next,iv); } function stop(){ if(tm){clearInterval(tm); tm=null;} }
+    if('IntersectionObserver' in window){ new IntersectionObserver(function(es){ es.forEach(function(e){ e.isIntersecting?start():stop(); }); },{threshold:0.05}).observe(box); } else start();
+    document.addEventListener('visibilitychange',function(){ document.hidden?stop():start(); });
+  })();
+  /* スマホ固定CTA（v8.0）：FVのCTAか予約欄が見えている間は出さない */
+  (function(){
+    var st=document.getElementById('stick'), fv=document.getElementById('top'), bk=document.getElementById('booking'); if(!st||!fv||!bk||!('IntersectionObserver' in window)) return;
+    var seen={fv:true,bk:false};
+    function upd(){ st.classList.toggle('on', !seen.fv && !seen.bk); }
+    new IntersectionObserver(function(es){ es.forEach(function(e){ seen[e.target===fv?'fv':'bk']=e.isIntersecting; }); upd(); },{threshold:0.05}).observe(fv);
+    new IntersectionObserver(function(es){ es.forEach(function(e){ seen.bk=e.isIntersecting; }); upd(); },{threshold:0.05}).observe(bk);
+  })();
+  /* 声のカルーセル（v9.1） */
+  (function(){
+    var tr=document.getElementById('vtrack'), dots=document.getElementById('vdots'), box=document.getElementById('vslider'); if(!tr||!dots||!box) return;
+    var cards=[].slice.call(tr.children), n=cards.length, i=0, tm=null, ds=[];
+    if(n<2) return;
+    cards.forEach(function(_,k){ var d=document.createElement('button'); d.type='button'; d.setAttribute('aria-label',(k+1)+'人目'); d.addEventListener('click',function(){go(k,true);}); dots.appendChild(d); ds.push(d); });
+    function paint(){ ds.forEach(function(d,k){ d.classList.toggle('on',k===i); }); }
+    function go(k,user){ i=(k+n)%n; tr.scrollTo({left:i*tr.clientWidth, behavior:reduce?'auto':'smooth'}); paint(); if(user) restart(); }
+    function tick(){ go(i+1,false); }
+    function start(){ if(!tm&&!reduce) tm=setInterval(tick,5000); } function stop(){ if(tm){clearInterval(tm); tm=null;} } function restart(){ stop(); start(); }
+    box.querySelector('.prev').addEventListener('click',function(){go(i-1,true);});
+    box.querySelector('.next').addEventListener('click',function(){go(i+1,true);});
+    var st=null; tr.addEventListener('scroll',function(){ clearTimeout(st); st=setTimeout(function(){ var k=Math.round(tr.scrollLeft/tr.clientWidth); if(k!==i){ i=k; paint(); restart(); } },80); },{passive:true});
+    ['mouseenter','touchstart','focusin'].forEach(function(e){ box.addEventListener(e,stop,{passive:true}); });
+    ['mouseleave','touchend','focusout'].forEach(function(e){ box.addEventListener(e,start,{passive:true}); });
+    if('IntersectionObserver' in window){ new IntersectionObserver(function(es){ es.forEach(function(e){ e.isIntersecting?start():stop(); }); },{threshold:0.2}).observe(box); } else start();
+    window.addEventListener('resize',function(){ tr.scrollTo({left:i*tr.clientWidth}); });
+    paint();
+  })();
+  /* 出現 */
+  (function(){
+    var els=[].slice.call(document.querySelectorAll('.rv'));
+    if(reduce||!('IntersectionObserver' in window)){ els.forEach(function(e){e.classList.add('in');}); return; }
+    var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }); },{threshold:.18});
+    els.forEach(function(e){io.observe(e);});
+  })();
+
+  /* メニュー */
+  (function(){
+    var ov=$('#menu');
+    function open(){ ov.hidden=false; requestAnimationFrame(function(){ov.classList.add('open');}); document.body.classList.add('locked'); }
+    function close(){ ov.classList.remove('open'); document.body.classList.remove('locked'); setTimeout(function(){ov.hidden=true;},260); }
+    document.querySelectorAll('[data-open="menu"]').forEach(function(b){b.addEventListener('click',open);});
+    ov.querySelectorAll('[data-close]').forEach(function(b){b.addEventListener('click',close);});
+    document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&!ov.hidden) close(); });
+  })();
+})();
+</script>
+
+<!-- ============ 計測（2026-11-06 Claude追加・justdoito と同じ形） ============
+     予約CV: 枠 ng-replay は cvEnabled=false（config API 2026-11-02 確認）＝
+        埋め込みはCVを送らない。ここの lead_submit が唯一の送信元（二重計測にならない）。
+        ★bookingId がある時だけ成果にする。detail.type はお断り時も 'booking' で来るため判定に使わない。
+        ★枠側を cvEnabled=true に変えたら、ここの lead_submit を消すこと（1予約=generate_lead 2件になる）。
+================================================================ -->
+<script>
+(function(){
+  window.dataLayer=window.dataLayer||[];
+  var done=false;
+  document.addEventListener('reflame-booking:done',function(e){
+    var d=(e&&e.detail)||{}; var bookingId=String(d.bookingId||'');
+    if(!bookingId||done) return; done=true;
+    var p=new URLSearchParams(location.search);
+    window.dataLayer.push({
+      event:'lead_submit', lp:'newgrads_replay', cv_source:'embed', booking_id:bookingId,
+      utm_source:p.get('utm_source')||'', utm_medium:p.get('utm_medium')||'',
+      utm_campaign:p.get('utm_campaign')||'', ttclid:p.get('ttclid')||''
+    });
+  });
+})();
+</script>
+</body>
+</html>
