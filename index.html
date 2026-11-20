@@ -544,7 +544,6 @@ body.ready .fv .copy > :nth-child(2){transition-delay:.15s;}
 .ny-list li:not(.r) .bub{border-bottom-left-radius:4px;} .ny-list li:not(.r) .bub::after{left:-12px; border-right-color:#F9FAFA;}
 .ny-list li.r .bub{border-bottom-right-radius:4px; background:#DDE3E8;} .ny-list li.r .bub::after{right:-12px; border-left-color:#DDE3E8;}
 @media (min-width:768px){ .ny-list{max-width:640px; margin-left:auto !important; margin-right:auto !important;} .ny-list .wi{flex-basis:64px; width:64px !important; height:64px !important;} .ny-list .bub{font-size:16px; padding:12px 18px;} }
-}
 /* ── 横レール ── */
 .rail{display:flex; gap:12px; overflow-x:auto; scroll-snap-type:x mandatory; scroll-padding-inline:var(--gut); margin:0 calc(var(--gut) * -1); padding:0 var(--gut) 8px; scrollbar-width:none;}
 .rail::-webkit-scrollbar{display:none;}
@@ -700,9 +699,27 @@ footer .fnote{margin-top:40px; padding-top:16px; border-top:1px solid var(--surf
   .cine .career{gap:5px;} .cine .career li{grid-template-columns:4.2em 1fr; gap:8px; font-size:11.5px; line-height:1.5;} .cine .career li span{padding-left:8px;}
   .cine .note{font-size:11.5px; margin-top:8px;}
   .cine .then{margin:12px 0 0; aspect-ratio:16/7;}
+}
 .cta .gift-line{display:inline-flex; align-items:center; gap:8px; margin-top:6px; height:52px; padding:0 18px 0 20px; border-radius:999px; background:var(--ink); color:var(--ground2); border:0; font-size:13px; font-weight:800; text-decoration:none; white-space:nowrap; box-shadow:0 10px 28px rgba(0,0,0,.4);}
 .cta .gift-line::after{content:"›"; font-size:20px; line-height:1;}
 @media (min-width:768px){ .cta .gift-line{height:60px; padding:0 32px; font-size:17px; gap:10px;} }
+/* ── 2026-11-20：FVの実績と「無料で相談する」を大きく（鈴村） ── */
+.fv-r .crowns{gap:8px;}
+.fv-r .crown .lr{width:15px; height:46px;}
+.fv-r .crown .cl{font-size:13px;}
+.fv-r .crown .cv{font-size:24px; text-shadow:0 2px 12px rgba(0,0,0,.55);}
+.fv-r .crown .cv small{font-size:12px;}
+.fv-r .fvbtn{width:100%; height:58px; padding:0 20px; font-size:17px; font-weight:800; letter-spacing:.06em; justify-content:center; box-shadow:0 10px 28px rgba(0,0,0,.45);}
+.fv-r .fvbtn .chev{font-size:24px; margin-left:10px;}
+@media (min-width:1024px){
+  .fv-r{gap:20px;}
+  .fv-r .crowns{gap:36px;}
+  .fv-r .crown .lr{width:30px; height:90px;}
+  .fv-r .crown .cl{font-size:15px;}
+  .fv-r .crown .cv{font-size:44px;}
+  .fv-r .crown .cv small{font-size:18px;}
+  .fv-r .fvbtn{width:auto; min-width:340px; height:68px; padding:0 44px; font-size:20px;}
+}
 </style>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
